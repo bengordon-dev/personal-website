@@ -1,0 +1,7 @@
+svg .state {
+  stroke-width: 0.97063118000000004;
+  fill: "#f9f9f9";
+}
+svg .state:hover {
+  fill: "#ff0000";
+}
