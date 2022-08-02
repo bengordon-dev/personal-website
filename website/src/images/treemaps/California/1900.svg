@@ -1,0 +1,971 @@
+<svg height="100%" width="100%" viewbox="0 0 700 700">
+<g key="0" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="0"
+        width="22.93"
+        height="5.93"
+        style="fill: #7F0000"
+      />
+      <text 
+        style="fill: white; font-size: 0.9883333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="2.965"
+      >
+        Alpine
+      </text>
+    </g>
+<g key="1" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="5.93"
+        width="22.93"
+        height="38.44"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 5.7325"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="25.15"
+      >
+        Mono
+      </text>
+    </g>
+<g key="2" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="44.37"
+        width="22.93"
+        height="45.5"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.5477777777777777"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="67.12"
+      >
+        Del_Norte
+      </text>
+    </g>
+<g key="3" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="89.86"
+        width="22.93"
+        height="65.95"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.7325"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="122.83500000000001"
+      >
+        Inyo
+      </text>
+    </g>
+<g key="4" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="155.81"
+        width="22.93"
+        height="66.66"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.8216666666666668"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="189.14"
+      >
+        Lassen
+      </text>
+    </g>
+<g key="5" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="222.47"
+        width="22.93"
+        height="70.25"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.586"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="257.595"
+      >
+        Modoc
+      </text>
+    </g>
+<g key="6" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="292.72"
+        width="22.93"
+        height="73.29"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.275714285714286"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="329.365"
+      >
+        Trinity
+      </text>
+    </g>
+<g key="7" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="366.01"
+        width="22.93"
+        height="77.24"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 3.8216666666666668"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="404.63"
+      >
+        Plumas
+      </text>
+    </g>
+<g key="8" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="443.25"
+        width="22.93"
+        height="81.19"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.8216666666666668"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="483.845"
+      >
+        Sierra
+      </text>
+    </g>
+<g key="9" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="524.44"
+        width="22.93"
+        height="87.32"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.86625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="568.1"
+      >
+        Mariposa
+      </text>
+    </g>
+<g key="10" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="611.76"
+        width="22.93"
+        height="88.24"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.586"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.465"
+        y="655.88"
+      >
+        Glenn
+      </text>
+    </g>
+<g key="11" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="0"
+        width="39.79"
+        height="57.26"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 9.9475"
+        dominant-baseline="central" text-anchor="middle" 
+        x="42.825"
+        y="28.63"
+      >
+        Lake
+      </text>
+    </g>
+<g key="12" transform="scale(1, 1)"> 
+      <rect
+        x="62.72"
+        y="0"
+        width="42.11"
+        height="57.26"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 7.0183333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="83.775"
+        y="28.63"
+      >
+        Sutter
+      </text>
+    </g>
+<g key="13" transform="scale(1, 1)"> 
+      <rect
+        x="104.83"
+        y="0"
+        width="43.52"
+        height="57.26"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 7.253333333333334"
+        dominant-baseline="central" text-anchor="middle" 
+        x="126.59"
+        y="28.63"
+      >
+        Madera
+      </text>
+    </g>
+<g key="14" transform="scale(1, 1)"> 
+      <rect
+        x="148.35"
+        y="0"
+        width="43.78"
+        height="57.26"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.378"
+        dominant-baseline="central" text-anchor="middle" 
+        x="170.24"
+        y="28.63"
+      >
+        San_Benito
+      </text>
+    </g>
+<g key="15" transform="scale(1, 1)"> 
+      <rect
+        x="192.12"
+        y="0"
+        width="50.86"
+        height="57.26"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 8.476666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="217.55"
+        y="28.63"
+      >
+        Colusa
+      </text>
+    </g>
+<g key="16" transform="scale(1, 1)"> 
+      <rect
+        x="242.99"
+        y="0"
+        width="55.07"
+        height="57.26"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 9.178333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="270.52500000000003"
+        y="28.63"
+      >
+        Merced
+      </text>
+    </g>
+<g key="17" transform="scale(1, 1)"> 
+      <rect
+        x="298.06"
+        y="0"
+        width="56.31"
+        height="57.26"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 11.262"
+        dominant-baseline="central" text-anchor="middle" 
+        x="326.21500000000003"
+        y="28.63"
+      >
+        Kings
+      </text>
+    </g>
+<g key="18" transform="scale(1, 1)"> 
+      <rect
+        x="354.37"
+        y="0"
+        width="61.57"
+        height="57.26"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 14.315"
+        dominant-baseline="central" text-anchor="middle" 
+        x="385.15500000000003"
+        y="28.63"
+      >
+        Yuba
+      </text>
+    </g>
+<g key="19" transform="scale(1, 1)"> 
+      <rect
+        x="415.94"
+        y="0"
+        width="67.87"
+        height="57.26"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 9.543333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="449.875"
+        y="28.63"
+      >
+        Tehama
+      </text>
+    </g>
+<g key="20" transform="scale(1, 1)"> 
+      <rect
+        x="483.81"
+        y="0"
+        width="68.2"
+        height="57.26"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.726"
+        dominant-baseline="central" text-anchor="middle" 
+        x="517.91"
+        y="28.63"
+      >
+        Stanislaus
+      </text>
+    </g>
+<g key="21" transform="scale(1, 1)"> 
+      <rect
+        x="552.01"
+        y="0"
+        width="73.74"
+        height="57.26"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 6.362222222222222"
+        dominant-baseline="central" text-anchor="middle" 
+        x="588.88"
+        y="28.63"
+      >
+        San_Mateo
+      </text>
+    </g>
+<g key="22" transform="scale(1, 1)"> 
+      <rect
+        x="625.75"
+        y="0"
+        width="74.25"
+        height="57.26"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 9.543333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="662.875"
+        y="28.63"
+      >
+        Amador
+      </text>
+    </g>
+<g key="23" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="57.26"
+        width="70.96"
+        height="60.23"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.692222222222222"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="87.375"
+      >
+        El_Dorado
+      </text>
+    </g>
+<g key="24" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="117.49"
+        width="70.96"
+        height="60.26"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 12.052"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="147.62"
+      >
+        Marin
+      </text>
+    </g>
+<g key="25" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="177.75"
+        width="70.96"
+        height="66.16"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.27"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="210.82999999999998"
+      >
+        Tuolumne
+      </text>
+    </g>
+<g key="26" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="243.91"
+        width="70.96"
+        height="66.8"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 7.422222222222222"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="277.31"
+      >
+        Calaveras
+      </text>
+    </g>
+<g key="27" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="310.71"
+        width="70.96"
+        height="72.7"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 10.137142857142857"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="347.06"
+      >
+        Ventura
+      </text>
+    </g>
+<g key="28" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="383.4"
+        width="70.96"
+        height="75.12"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 17.74"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="420.96"
+      >
+        Yolo
+      </text>
+    </g>
+<g key="29" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="458.52"
+        width="70.96"
+        height="77.8"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.730666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="497.41999999999996"
+      >
+        San_Luis_Obispo
+      </text>
+    </g>
+<g key="30" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="536.32"
+        width="70.96"
+        height="81.06"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 17.74"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="576.85"
+      >
+        Napa
+      </text>
+    </g>
+<g key="31" transform="scale(1, 1)"> 
+      <rect
+        x="22.93"
+        y="617.39"
+        width="70.96"
+        height="82.61"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 8.87"
+        dominant-baseline="central" text-anchor="middle" 
+        x="58.41"
+        y="658.6949999999999"
+      >
+        Siskiyou
+      </text>
+    </g>
+<g key="32" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="57.26"
+        width="72.89"
+        height="81.58"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 12.148333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="130.335"
+        y="98.05"
+      >
+        Placer
+      </text>
+    </g>
+<g key="33" transform="scale(1, 1)"> 
+      <rect
+        x="166.78"
+        y="57.26"
+        width="74.26"
+        height="81.58"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 18.565"
+        dominant-baseline="central" text-anchor="middle" 
+        x="203.91"
+        y="98.05"
+      >
+        Kern
+      </text>
+    </g>
+<g key="34" transform="scale(1, 1)"> 
+      <rect
+        x="241.03"
+        y="57.26"
+        width="74.56"
+        height="81.58"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 12.426666666666668"
+        dominant-baseline="central" text-anchor="middle" 
+        x="278.31"
+        y="98.05"
+      >
+        Shasta
+      </text>
+    </g>
+<g key="35" transform="scale(1, 1)"> 
+      <rect
+        x="315.59"
+        y="57.26"
+        width="74.95"
+        height="81.58"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 5.765384615384615"
+        dominant-baseline="central" text-anchor="middle" 
+        x="353.065"
+        y="98.05"
+      >
+        Santa_Barbara
+      </text>
+    </g>
+<g key="36" transform="scale(1, 1)"> 
+      <rect
+        x="390.54"
+        y="57.26"
+        width="75.27"
+        height="81.58"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 6.2725"
+        dominant-baseline="central" text-anchor="middle" 
+        x="428.175"
+        y="98.05"
+      >
+        Contra_Costa
+      </text>
+    </g>
+<g key="37" transform="scale(1, 1)"> 
+      <rect
+        x="465.81"
+        y="57.26"
+        width="75.51"
+        height="81.58"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 8.39"
+        dominant-baseline="central" text-anchor="middle" 
+        x="503.565"
+        y="98.05"
+      >
+        Riverside
+      </text>
+    </g>
+<g key="38" transform="scale(1, 1)"> 
+      <rect
+        x="541.32"
+        y="57.26"
+        width="77.71"
+        height="81.58"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 9.71375"
+        dominant-baseline="central" text-anchor="middle" 
+        x="580.1750000000001"
+        y="98.05"
+      >
+        Monterey
+      </text>
+    </g>
+<g key="39" transform="scale(1, 1)"> 
+      <rect
+        x="619.02"
+        y="57.26"
+        width="80.98"
+        height="81.58"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 8.098"
+        dominant-baseline="central" text-anchor="middle" 
+        x="659.51"
+        y="98.05"
+      >
+        Santa_Cruz
+      </text>
+    </g>
+<g key="40" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="138.84"
+        width="94.74"
+        height="70.39"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 7.821111111111112"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="174.035"
+      >
+        Mendocino
+      </text>
+    </g>
+<g key="41" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="209.23"
+        width="94.74"
+        height="71.79"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 11.965000000000002"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="245.125"
+      >
+        Orange
+      </text>
+    </g>
+<g key="42" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="281.02"
+        width="94.74"
+        height="72.34"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 12.056666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="317.19"
+      >
+        Tulare
+      </text>
+    </g>
+<g key="43" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="353.36"
+        width="94.74"
+        height="74.76"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 12.46"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="390.74"
+      >
+        Nevada
+      </text>
+    </g>
+<g key="44" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="428.12"
+        width="94.74"
+        height="75.43"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 15.086000000000002"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="465.83500000000004"
+      >
+        Butte
+      </text>
+    </g>
+<g key="45" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="503.55"
+        width="94.74"
+        height="96.01"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 15.79"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="551.5550000000001"
+      >
+        Solano
+      </text>
+    </g>
+<g key="46" transform="scale(1, 1)"> 
+      <rect
+        x="93.89"
+        y="599.57"
+        width="94.74"
+        height="100.43"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 11.8425"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.26"
+        y="649.7850000000001"
+      >
+        Humboldt
+      </text>
+    </g>
+<g key="47" transform="scale(1, 1)"> 
+      <rect
+        x="188.63"
+        y="138.84"
+        width="87.85"
+        height="110.65"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 6.2749999999999995"
+        dominant-baseline="central" text-anchor="middle" 
+        x="232.555"
+        y="194.16500000000002"
+      >
+        San_Bernardino
+      </text>
+    </g>
+<g key="48" transform="scale(1, 1)"> 
+      <rect
+        x="276.47"
+        y="138.84"
+        width="93.23"
+        height="110.65"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 8.475454545454546"
+        dominant-baseline="central" text-anchor="middle" 
+        x="323.08500000000004"
+        y="194.16500000000002"
+      >
+        San_Joaquin
+      </text>
+    </g>
+<g key="49" transform="scale(1, 1)"> 
+      <rect
+        x="369.7"
+        y="138.84"
+        width="101.15"
+        height="110.65"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 11.238888888888889"
+        dominant-baseline="central" text-anchor="middle" 
+        x="420.275"
+        y="194.16500000000002"
+      >
+        San_Diego
+      </text>
+    </g>
+<g key="50" transform="scale(1, 1)"> 
+      <rect
+        x="470.85"
+        y="138.84"
+        width="110.68"
+        height="110.65"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 18.441666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="526.19"
+        y="194.16500000000002"
+      >
+        Fresno
+      </text>
+    </g>
+<g key="51" transform="scale(1, 1)"> 
+      <rect
+        x="581.52"
+        y="138.84"
+        width="118.48"
+        height="110.65"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 18.441666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="640.76"
+        y="194.16500000000002"
+      >
+        Sonoma
+      </text>
+    </g>
+<g key="52" transform="scale(1, 1)"> 
+      <rect
+        x="188.63"
+        y="249.49"
+        width="159.41"
+        height="101.96"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 10.196"
+        dominant-baseline="central" text-anchor="middle" 
+        x="268.335"
+        y="300.47"
+      >
+        Sacramento
+      </text>
+    </g>
+<g key="53" transform="scale(1, 1)"> 
+      <rect
+        x="188.63"
+        y="351.45"
+        width="159.41"
+        height="123.76"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 11.250909090909092"
+        dominant-baseline="central" text-anchor="middle" 
+        x="268.335"
+        y="413.33"
+      >
+        Santa_Clara
+      </text>
+    </g>
+<g key="54" transform="scale(1, 1)"> 
+      <rect
+        x="188.63"
+        y="475.21"
+        width="159.41"
+        height="224.79"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 22.77285714285714"
+        dominant-baseline="central" text-anchor="middle" 
+        x="268.335"
+        y="587.605"
+      >
+        Alameda
+      </text>
+    </g>
+<g key="55" transform="scale(1, 1)"> 
+      <rect
+        x="348.04"
+        y="249.49"
+        width="351.96"
+        height="160.12"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 14.556363636363637"
+        dominant-baseline="central" text-anchor="middle" 
+        x="524.02"
+        y="329.55"
+      >
+        Los_Angeles
+      </text>
+    </g>
+<g key="56" transform="scale(1, 1)"> 
+      <rect
+        x="348.04"
+        y="409.61"
+        width="351.96"
+        height="290.39"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 22.337692307692308"
+        dominant-baseline="central" text-anchor="middle" 
+        x="524.02"
+        y="554.8050000000001"
+      >
+        San_Francisco
+      </text>
+    </g>
+</svg>

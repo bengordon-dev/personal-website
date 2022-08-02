@@ -24,10 +24,10 @@ const styles = {
   },
   button: {
     marginLeft: "auto",
-    marginRight: 0,
+    marginRight: "1em",
 
     border: "none",
-    backgroundColor: "#282c34",
+    backgroundColor: "rgba(40,44,52, 0)",
     color: "white",
     fontSize: 20
   }

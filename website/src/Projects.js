@@ -34,13 +34,13 @@ export default function Projects() {
       {hackOpen && <div className="aboutMeSection">
         <p style={styles.below}>
           <b><a href="https://hacktx.com/">HackTX</a> 2021:</b> (October 30-31) <a href="https://github.com/consilia-proj/consilia-mobile-app">Consilia</a><br/>
-          HACKTX 2021 was, for me, the very satisfying culmination of a lot of recent learning. 
-          I spent a lot of time throughout 2021 writing React Native code, and a lot in the fall semester learning about full-stack development,
-          and it all paid off majorly.<br/>
-          I did a majority of the frontend work for my team's mobile app. It was a fun 24 hours, and it went very smoothly overall.
-          Most of the React Native bugs I encountered were things I had seen before while working on Volunity. My team's backend
-          code worked brilliantly, and was easy to use; furthermore, thanks to TPEO lectures, I actually understood how all
-          of our code worked together!
+          HACKTX 2021 was, for me, the very satisfying culmination of a lot of recent learning! 
+          The time I spent throughout 2021 writing React Native code paid off majorly, as did the extracurricular endeavors of my fall semester. 
+          <br/>
+          I did a majority of the frontend work for my team's mobile app. It was a fun 24 hours, and it went very smoothly overall;
+          most of the React Native bugs I encountered were things I had seen before. While I didn't write any of the backend,
+          my newfound understanding of APIs made it both easier to use my teammates' code and more fun; I could eagerly see how
+          everything was fitting together.
         </p>
         <p style={styles.below}>
           <b><a href="https://unihacks.ncssm.edu/unihacks">Unihacks</a> 2019:</b> Astrostacking Application<br/>

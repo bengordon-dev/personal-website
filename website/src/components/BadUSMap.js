@@ -1,6 +1,8 @@
 import React, {useState} from "react";
-import './App.css';
-export default function USMap() {
+import '../App.css';
+import USState from "./USState";
+
+export default function USMap(props) {
   const [hoveredState, setHoveredState] = useState("");
 
   function USState(props) {

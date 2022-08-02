@@ -8,7 +8,7 @@ export default function Home() {
     document.title = "Ben Gordon"
   }, []);
   return (
-    <div className="App">
+    <div className="page" >
       <p>Hello! Welcome to my personal website.</p>
       <img height="316px" width="308px" src={pic} alt="mew" />
       <p>Me, shortly before graduating high school (June 2021)</p>
