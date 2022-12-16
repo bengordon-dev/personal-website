@@ -1,0 +1,1586 @@
+<svg version="1.1" height="100%" width="100%" viewbox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+<g key="0" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="0"
+        width="43.35"
+        height="32.55"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.425"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="16.275"
+        font-family="Arial"
+      >
+        Vinton
+      </text>
+    </g>
+<g key="1" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="32.55"
+        width="43.35"
+        height="34.63"
+        style="fill: #7FFF7F"
+      />
+      <text 
+        style="fill: white; font-size: 5.771666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="49.864999999999995"
+        font-family="Arial"
+      >
+        Geauga
+      </text>
+    </g>
+<g key="2" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="67.19"
+        width="43.35"
+        height="37.46"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 9.365"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="85.92"
+        font-family="Arial"
+      >
+        Pike
+      </text>
+    </g>
+<g key="3" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="104.64"
+        width="43.35"
+        height="39.57"
+        style="fill: #0645B4"
+      />
+      <text 
+        style="fill: white; font-size: 6.595"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="124.425"
+        font-family="Arial"
+      >
+        Holmes
+      </text>
+    </g>
+<g key="4" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="144.22"
+        width="43.35"
+        height="40.56"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.7942857142857145"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="164.5"
+        font-family="Arial"
+      >
+        Carroll
+      </text>
+    </g>
+<g key="5" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="184.78"
+        width="43.35"
+        height="44.2"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.2250000000000005"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="206.88"
+        font-family="Arial"
+      >
+        Morgan
+      </text>
+    </g>
+<g key="6" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="228.98"
+        width="43.35"
+        height="48.88"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.2250000000000005"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="253.42"
+        font-family="Arial"
+      >
+        Morrow
+      </text>
+    </g>
+<g key="7" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="277.86"
+        width="43.35"
+        height="49.09"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.67"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="302.40500000000003"
+        font-family="Arial"
+      >
+        Noble
+      </text>
+    </g>
+<g key="8" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="326.94"
+        width="43.35"
+        height="50.09"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 5.41875"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="351.985"
+        font-family="Arial"
+      >
+        Harrison
+      </text>
+    </g>
+<g key="9" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="377.03"
+        width="43.35"
+        height="50.25"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 7.2250000000000005"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="402.155"
+        font-family="Arial"
+      >
+        Ottawa
+      </text>
+    </g>
+<g key="10" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="427.28"
+        width="43.35"
+        height="52.76"
+        style="fill: #1666CB"
+      />
+      <text 
+        style="fill: white; font-size: 7.2250000000000005"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="453.65999999999997"
+        font-family="Arial"
+      >
+        Monroe
+      </text>
+    </g>
+<g key="11" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="480.04"
+        width="43.35"
+        height="53.39"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.67"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="506.735"
+        font-family="Arial"
+      >
+        Adams
+      </text>
+    </g>
+<g key="12" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="533.43"
+        width="43.35"
+        height="54.62"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.192857142857143"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="560.7399999999999"
+        font-family="Arial"
+      >
+        Hocking
+      </text>
+    </g>
+<g key="13" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="588.05"
+        width="43.35"
+        height="54.95"
+        style="fill: #B2FFB2"
+      />
+      <text 
+        style="fill: black; font-size: 10.8375"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="615.525"
+        font-family="Arial"
+      >
+        Lake
+      </text>
+    </g>
+<g key="14" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="643"
+        width="43.35"
+        height="57"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 6.192857142857143"
+        dominant-baseline="central" text-anchor="middle" 
+        x="21.675"
+        y="671.5"
+        font-family="Arial"
+      >
+        Wyandot
+      </text>
+    </g>
+<g key="15" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="0"
+        width="47.65"
+        height="51.9"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 9.53"
+        dominant-baseline="central" text-anchor="middle" 
+        x="67.175"
+        y="25.95"
+        font-family="Arial"
+      >
+        Henry
+      </text>
+    </g>
+<g key="16" transform="scale(1, 1)"> 
+      <rect
+        x="91"
+        y="0"
+        width="47.66"
+        height="51.9"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 6.808571428571428"
+        dominant-baseline="central" text-anchor="middle" 
+        x="114.83"
+        y="25.95"
+        font-family="Arial"
+      >
+        Madison
+      </text>
+    </g>
+<g key="17" transform="scale(1, 1)"> 
+      <rect
+        x="138.66"
+        y="0"
+        width="47.93"
+        height="51.9"
+        style="fill: #D4FFD4"
+      />
+      <text 
+        style="fill: black; font-size: 7.988333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="162.625"
+        y="25.95"
+        font-family="Arial"
+      >
+        Fulton
+      </text>
+    </g>
+<g key="18" transform="scale(1, 1)"> 
+      <rect
+        x="186.59"
+        y="0"
+        width="47.96"
+        height="51.9"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.995"
+        dominant-baseline="central" text-anchor="middle" 
+        x="210.57"
+        y="25.95"
+        font-family="Arial"
+      >
+        Paulding
+      </text>
+    </g>
+<g key="19" transform="scale(1, 1)"> 
+      <rect
+        x="234.56"
+        y="0"
+        width="48.88"
+        height="51.9"
+        style="fill: #D4FFD4"
+      />
+      <text 
+        style="fill: black; font-size: 8.146666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="259"
+        y="25.95"
+        font-family="Arial"
+      >
+        Gallia
+      </text>
+    </g>
+<g key="20" transform="scale(1, 1)"> 
+      <rect
+        x="283.44"
+        y="0"
+        width="50.1"
+        height="51.9"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 6.2625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="308.49"
+        y="25.95"
+        font-family="Arial"
+      >
+        Defiance
+      </text>
+    </g>
+<g key="21" transform="scale(1, 1)"> 
+      <rect
+        x="333.54"
+        y="0"
+        width="50.1"
+        height="51.9"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.1571428571428575"
+        dominant-baseline="central" text-anchor="middle" 
+        x="358.59000000000003"
+        y="25.95"
+        font-family="Arial"
+      >
+        Fayette
+      </text>
+    </g>
+<g key="22" transform="scale(1, 1)"> 
+      <rect
+        x="383.65"
+        y="0"
+        width="51.65"
+        height="51.9"
+        style="fill: #D4FFD4"
+      />
+      <text 
+        style="fill: black; font-size: 8.608333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="409.47499999999997"
+        y="25.95"
+        font-family="Arial"
+      >
+        Medina
+      </text>
+    </g>
+<g key="23" transform="scale(1, 1)"> 
+      <rect
+        x="435.3"
+        y="0"
+        width="51.73"
+        height="51.9"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 8.621666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="461.165"
+        y="25.95"
+        font-family="Arial"
+      >
+        Mercer
+      </text>
+    </g>
+<g key="24" transform="scale(1, 1)"> 
+      <rect
+        x="487.03"
+        y="0"
+        width="52.86"
+        height="51.9"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 10.379999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="513.4599999999999"
+        y="25.95"
+        font-family="Arial"
+      >
+        Union
+      </text>
+    </g>
+<g key="25" transform="scale(1, 1)"> 
+      <rect
+        x="539.89"
+        y="0"
+        width="53.13"
+        height="51.9"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 10.379999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="566.455"
+        y="25.95"
+        font-family="Arial"
+      >
+        Brown
+      </text>
+    </g>
+<g key="26" transform="scale(1, 1)"> 
+      <rect
+        x="593.02"
+        y="0"
+        width="53.25"
+        height="51.9"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 10.379999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="619.645"
+        y="25.95"
+        font-family="Arial"
+      >
+        Meigs
+      </text>
+    </g>
+<g key="27" transform="scale(1, 1)"> 
+      <rect
+        x="646.27"
+        y="0"
+        width="53.73"
+        height="51.9"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 8.65"
+        dominant-baseline="central" text-anchor="middle" 
+        x="673.135"
+        y="25.95"
+        font-family="Arial"
+      >
+        Shelby
+      </text>
+    </g>
+<g key="28" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="51.9"
+        width="56.62"
+        height="49.99"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 7.1414285714285715"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="76.895"
+        font-family="Arial"
+      >
+        Clinton
+      </text>
+    </g>
+<g key="29" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="101.89"
+        width="56.62"
+        height="51.39"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.565"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="127.58500000000001"
+        font-family="Arial"
+      >
+        Preble
+      </text>
+    </g>
+<g key="30" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="153.28"
+        width="56.62"
+        height="51.63"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.375714285714286"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="179.095"
+        font-family="Arial"
+      >
+        Jackson
+      </text>
+    </g>
+<g key="31" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="204.91"
+        width="56.62"
+        height="52.3"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 8.716666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="231.06"
+        font-family="Arial"
+      >
+        Warren
+      </text>
+    </g>
+<g key="32" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="257.21"
+        width="56.62"
+        height="52.52"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 7.502857142857144"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="283.46999999999997"
+        font-family="Arial"
+      >
+        Ashland
+      </text>
+    </g>
+<g key="33" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="309.73"
+        width="56.62"
+        height="52.72"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.59"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="336.09000000000003"
+        font-family="Arial"
+      >
+        Pickaway
+      </text>
+    </g>
+<g key="34" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="362.44"
+        width="56.62"
+        height="53.49"
+        style="fill: #1666CB"
+      />
+      <text 
+        style="fill: white; font-size: 8.915000000000001"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="389.185"
+        font-family="Arial"
+      >
+        Putnam
+      </text>
+    </g>
+<g key="35" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="415.94"
+        width="56.62"
+        height="53.54"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.6925"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="442.71"
+        font-family="Arial"
+      >
+        Williams
+      </text>
+    </g>
+<g key="36" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="469.48"
+        width="56.62"
+        height="55.71"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 6.96375"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="497.33500000000004"
+        font-family="Arial"
+      >
+        Auglaize
+      </text>
+    </g>
+<g key="37" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="525.19"
+        width="56.62"
+        height="56.9"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.29111111111111"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="553.6400000000001"
+        font-family="Arial"
+      >
+        Champaign
+      </text>
+    </g>
+<g key="38" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="582.08"
+        width="56.62"
+        height="58.77"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 9.436666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="611.465"
+        font-family="Arial"
+      >
+        Greene
+      </text>
+    </g>
+<g key="39" transform="scale(1, 1)"> 
+      <rect
+        x="43.35"
+        y="640.86"
+        width="56.62"
+        height="59.14"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 7.0775"
+        dominant-baseline="central" text-anchor="middle" 
+        x="71.66"
+        y="670.4300000000001"
+        font-family="Arial"
+      >
+        Lawrence
+      </text>
+    </g>
+<g key="40" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="51.9"
+        width="56.54"
+        height="59.38"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.0675"
+        dominant-baseline="central" text-anchor="middle" 
+        x="128.24"
+        y="81.59"
+        font-family="Arial"
+      >
+        Van_Wert
+      </text>
+    </g>
+<g key="41" transform="scale(1, 1)"> 
+      <rect
+        x="156.51"
+        y="51.9"
+        width="57.72"
+        height="59.38"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 6.413333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="185.37"
+        y="81.59"
+        font-family="Arial"
+      >
+        Coshocton
+      </text>
+    </g>
+<g key="42" transform="scale(1, 1)"> 
+      <rect
+        x="214.23"
+        y="51.9"
+        width="58.11"
+        height="59.38"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 11.622"
+        dominant-baseline="central" text-anchor="middle" 
+        x="243.285"
+        y="81.59"
+        font-family="Arial"
+      >
+        Logan
+      </text>
+    </g>
+<g key="43" transform="scale(1, 1)"> 
+      <rect
+        x="272.34"
+        y="51.9"
+        width="58.21"
+        height="59.38"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.27625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="301.445"
+        y="81.59"
+        font-family="Arial"
+      >
+        Delaware
+      </text>
+    </g>
+<g key="44" transform="scale(1, 1)"> 
+      <rect
+        x="330.55"
+        y="51.9"
+        width="58.78"
+        height="59.38"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.397142857142857"
+        dominant-baseline="central" text-anchor="middle" 
+        x="359.94"
+        y="81.59"
+        font-family="Arial"
+      >
+        Portage
+      </text>
+    </g>
+<g key="45" transform="scale(1, 1)"> 
+      <rect
+        x="389.33"
+        y="51.9"
+        width="59.35"
+        height="59.38"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.41875"
+        dominant-baseline="central" text-anchor="middle" 
+        x="419.005"
+        y="81.59"
+        font-family="Arial"
+      >
+        Highland
+      </text>
+    </g>
+<g key="46" transform="scale(1, 1)"> 
+      <rect
+        x="448.67"
+        y="51.9"
+        width="60.45"
+        height="59.38"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.4225"
+        dominant-baseline="central" text-anchor="middle" 
+        x="478.89500000000004"
+        y="81.59"
+        font-family="Arial"
+      >
+        Clermont
+      </text>
+    </g>
+<g key="47" transform="scale(1, 1)"> 
+      <rect
+        x="509.12"
+        y="51.9"
+        width="62.81"
+        height="59.38"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 14.845"
+        dominant-baseline="central" text-anchor="middle" 
+        x="540.525"
+        y="81.59"
+        font-family="Arial"
+      >
+        Knox
+      </text>
+    </g>
+<g key="48" transform="scale(1, 1)"> 
+      <rect
+        x="571.93"
+        y="51.9"
+        width="64"
+        height="59.38"
+        style="fill: #1666CB"
+      />
+      <text 
+        style="fill: white; font-size: 7.4225"
+        dominant-baseline="central" text-anchor="middle" 
+        x="603.93"
+        y="81.59"
+        font-family="Arial"
+      >
+        Crawford
+      </text>
+    </g>
+<g key="49" transform="scale(1, 1)"> 
+      <rect
+        x="635.93"
+        y="51.9"
+        width="64.07"
+        height="59.38"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 11.876000000000001"
+        dominant-baseline="central" text-anchor="middle" 
+        x="667.9649999999999"
+        y="81.59"
+        font-family="Arial"
+      >
+        Perry
+      </text>
+    </g>
+<g key="50" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="111.28"
+        width="63.65"
+        height="61.48"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 12.296"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="142.02"
+        font-family="Arial"
+      >
+        Huron
+      </text>
+    </g>
+<g key="51" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="172.76"
+        width="63.65"
+        height="62.01"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 10.334999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="203.765"
+        font-family="Arial"
+      >
+        Hardin
+      </text>
+    </g>
+<g key="52" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="234.77"
+        width="63.65"
+        height="63.49"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 7.93625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="266.515"
+        font-family="Arial"
+      >
+        Sandusky
+      </text>
+    </g>
+<g key="53" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="298.26"
+        width="63.65"
+        height="65.91"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 7.072222222222222"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="331.215"
+        font-family="Arial"
+      >
+        Fairfield
+      </text>
+    </g>
+<g key="54" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="364.17"
+        width="63.65"
+        height="66.2"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 15.9125"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="397.27000000000004"
+        font-family="Arial"
+      >
+        Erie
+      </text>
+    </g>
+<g key="55" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="430.37"
+        width="63.65"
+        height="66.27"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 10.608333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="463.505"
+        font-family="Arial"
+      >
+        Marion
+      </text>
+    </g>
+<g key="56" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="496.64"
+        width="63.65"
+        height="67.11"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 9.092857142857143"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="530.1949999999999"
+        font-family="Arial"
+      >
+        Hancock
+      </text>
+    </g>
+<g key="57" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="563.75"
+        width="63.65"
+        height="67.49"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 7.95625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="597.495"
+        font-family="Arial"
+      >
+        Guernsey
+      </text>
+    </g>
+<g key="58" transform="scale(1, 1)"> 
+      <rect
+        x="99.97"
+        y="631.24"
+        width="63.65"
+        height="68.76"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 12.73"
+        dominant-baseline="central" text-anchor="middle" 
+        x="131.795"
+        y="665.62"
+        font-family="Arial"
+      >
+        Wayne
+      </text>
+    </g>
+<g key="59" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="111.28"
+        width="62.85"
+        height="71.29"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 10.475"
+        dominant-baseline="central" text-anchor="middle" 
+        x="195.04500000000002"
+        y="146.925"
+        font-family="Arial"
+      >
+        Athens
+      </text>
+    </g>
+<g key="60" transform="scale(1, 1)"> 
+      <rect
+        x="226.47"
+        y="111.28"
+        width="64.9"
+        height="71.29"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 16.225"
+        dominant-baseline="central" text-anchor="middle" 
+        x="258.92"
+        y="146.925"
+        font-family="Arial"
+      >
+        Ross
+      </text>
+    </g>
+<g key="61" transform="scale(1, 1)"> 
+      <rect
+        x="291.36"
+        y="111.28"
+        width="65.88"
+        height="71.29"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.587999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="324.3"
+        y="146.925"
+        font-family="Arial"
+      >
+        Washington
+      </text>
+    </g>
+<g key="62" transform="scale(1, 1)"> 
+      <rect
+        x="357.25"
+        y="111.28"
+        width="66.43"
+        height="71.29"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 16.6075"
+        dominant-baseline="central" text-anchor="middle" 
+        x="390.46500000000003"
+        y="146.925"
+        font-family="Arial"
+      >
+        Wood
+      </text>
+    </g>
+<g key="63" transform="scale(1, 1)"> 
+      <rect
+        x="423.68"
+        y="111.28"
+        width="67.66"
+        height="71.29"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 13.532"
+        dominant-baseline="central" text-anchor="middle" 
+        x="457.51"
+        y="146.925"
+        font-family="Arial"
+      >
+        Darke
+      </text>
+    </g>
+<g key="64" transform="scale(1, 1)"> 
+      <rect
+        x="491.34"
+        y="111.28"
+        width="67.86"
+        height="71.29"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 11.31"
+        dominant-baseline="central" text-anchor="middle" 
+        x="525.27"
+        y="146.925"
+        font-family="Arial"
+      >
+        Seneca
+      </text>
+    </g>
+<g key="65" transform="scale(1, 1)"> 
+      <rect
+        x="559.2"
+        y="111.28"
+        width="69.9"
+        height="71.29"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 11.65"
+        dominant-baseline="central" text-anchor="middle" 
+        x="594.1500000000001"
+        y="146.925"
+        font-family="Arial"
+      >
+        Scioto
+      </text>
+    </g>
+<g key="66" transform="scale(1, 1)"> 
+      <rect
+        x="629.1"
+        y="111.28"
+        width="70.9"
+        height="71.29"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 8.8625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="664.5500000000001"
+        y="146.925"
+        font-family="Arial"
+      >
+        Richland
+      </text>
+    </g>
+<g key="67" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="182.57"
+        width="76.55"
+        height="68.66"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 13.732"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="216.89999999999998"
+        font-family="Arial"
+      >
+        Miami
+      </text>
+    </g>
+<g key="68" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="251.23"
+        width="76.55"
+        height="70.21"
+        style="fill: #D4FFD4"
+      />
+      <text 
+        style="fill: black; font-size: 8.77625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="286.335"
+        font-family="Arial"
+      >
+        Trumbull
+      </text>
+    </g>
+<g key="69" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="321.44"
+        width="76.55"
+        height="70.45"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 7.827777777777778"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="356.665"
+        font-family="Arial"
+      >
+        Jefferson
+      </text>
+    </g>
+<g key="70" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="391.89"
+        width="76.55"
+        height="72.92"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 14.584"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="428.34999999999997"
+        font-family="Arial"
+      >
+        Allen
+      </text>
+    </g>
+<g key="71" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="464.82"
+        width="76.55"
+        height="75.96"
+        style="fill: #B2FFB2"
+      />
+      <text 
+        style="fill: black; font-size: 8.44"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="502.8"
+        font-family="Arial"
+      >
+        Ashtabula
+      </text>
+    </g>
+<g key="72" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="540.78"
+        width="76.55"
+        height="77.13"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.654999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="579.345"
+        font-family="Arial"
+      >
+        Tuscarawas
+      </text>
+    </g>
+<g key="73" transform="scale(1, 1)"> 
+      <rect
+        x="163.62"
+        y="617.91"
+        width="76.55"
+        height="82.09"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 10.935714285714285"
+        dominant-baseline="central" text-anchor="middle" 
+        x="201.895"
+        y="658.9549999999999"
+        font-family="Arial"
+      >
+        Licking
+      </text>
+    </g>
+<g key="74" transform="scale(1, 1)"> 
+      <rect
+        x="240.17"
+        y="182.57"
+        width="82.59"
+        height="77.92"
+        style="fill: #D4FFD4"
+      />
+      <text 
+        style="fill: black; font-size: 12.986666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="281.465"
+        y="221.53"
+        font-family="Arial"
+      >
+        Lorain
+      </text>
+    </g>
+<g key="75" transform="scale(1, 1)"> 
+      <rect
+        x="322.76"
+        y="182.57"
+        width="84.72"
+        height="77.92"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.657777777777778"
+        dominant-baseline="central" text-anchor="middle" 
+        x="365.12"
+        y="221.53"
+        font-family="Arial"
+      >
+        Muskingum
+      </text>
+    </g>
+<g key="76" transform="scale(1, 1)"> 
+      <rect
+        x="407.48"
+        y="182.57"
+        width="93.93"
+        height="77.92"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 11.131428571428572"
+        dominant-baseline="central" text-anchor="middle" 
+        x="454.44500000000005"
+        y="221.53"
+        font-family="Arial"
+      >
+        Belmont
+      </text>
+    </g>
+<g key="77" transform="scale(1, 1)"> 
+      <rect
+        x="501.4"
+        y="182.57"
+        width="97.56"
+        height="77.92"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.792"
+        dominant-baseline="central" text-anchor="middle" 
+        x="550.18"
+        y="221.53"
+        font-family="Arial"
+      >
+        Columbiana
+      </text>
+    </g>
+<g key="78" transform="scale(1, 1)"> 
+      <rect
+        x="598.97"
+        y="182.57"
+        width="101.03"
+        height="77.92"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 12.986666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="649.485"
+        y="221.53"
+        font-family="Arial"
+      >
+        Butler
+      </text>
+    </g>
+<g key="79" transform="scale(1, 1)"> 
+      <rect
+        x="240.17"
+        y="260.49"
+        width="93.86"
+        height="84.02"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 16.804"
+        dominant-baseline="central" text-anchor="middle" 
+        x="287.09999999999997"
+        y="302.5"
+        font-family="Arial"
+      >
+        Clark
+      </text>
+    </g>
+<g key="80" transform="scale(1, 1)"> 
+      <rect
+        x="240.17"
+        y="344.52"
+        width="93.86"
+        height="104.21"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 11.7325"
+        dominant-baseline="central" text-anchor="middle" 
+        x="287.09999999999997"
+        y="396.625"
+        font-family="Arial"
+      >
+        Mahoning
+      </text>
+    </g>
+<g key="81" transform="scale(1, 1)"> 
+      <rect
+        x="240.17"
+        y="448.73"
+        width="93.86"
+        height="116.74"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 15.643333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="287.09999999999997"
+        y="507.1"
+        font-family="Arial"
+      >
+        Summit
+      </text>
+    </g>
+<g key="82" transform="scale(1, 1)"> 
+      <rect
+        x="240.17"
+        y="565.46"
+        width="93.86"
+        height="134.54"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 18.772"
+        dominant-baseline="central" text-anchor="middle" 
+        x="287.09999999999997"
+        y="632.73"
+        font-family="Arial"
+      >
+        Stark
+      </text>
+    </g>
+<g key="83" transform="scale(1, 1)"> 
+      <rect
+        x="334.03"
+        y="260.49"
+        width="107.65"
+        height="165.07"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 21.53"
+        dominant-baseline="central" text-anchor="middle" 
+        x="387.85499999999996"
+        y="343.025"
+        font-family="Arial"
+      >
+        Lucas
+      </text>
+    </g>
+<g key="84" transform="scale(1, 1)"> 
+      <rect
+        x="441.68"
+        y="260.49"
+        width="113.16"
+        height="165.07"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 11.315999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="498.26"
+        y="343.025"
+        font-family="Arial"
+      >
+        Montgomery
+      </text>
+    </g>
+<g key="85" transform="scale(1, 1)"> 
+      <rect
+        x="554.85"
+        y="260.49"
+        width="145.15"
+        height="165.07"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 18.14375"
+        dominant-baseline="central" text-anchor="middle" 
+        x="627.4250000000001"
+        y="343.025"
+        font-family="Arial"
+      >
+        Franklin
+      </text>
+    </g>
+<g key="86" transform="scale(1, 1)"> 
+      <rect
+        x="334.03"
+        y="425.57"
+        width="176.68"
+        height="274.43"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 22.085"
+        dominant-baseline="central" text-anchor="middle" 
+        x="422.37"
+        y="562.785"
+        font-family="Arial"
+      >
+        Cuyahoga
+      </text>
+    </g>
+<g key="87" transform="scale(1, 1)"> 
+      <rect
+        x="510.71"
+        y="425.57"
+        width="189.29"
+        height="274.43"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 23.66125"
+        dominant-baseline="central" text-anchor="middle" 
+        x="605.355"
+        y="562.785"
+        font-family="Arial"
+      >
+        Hamilton
+      </text>
+    </g>
+</svg>

@@ -1,0 +1,2450 @@
+<svg version="1.1" height="100%" width="100%" viewbox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+<g key="0" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="0"
+        width="23.14"
+        height="14.12"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 0.9413333333333332"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="7.06"
+        font-family="Arial"
+      >
+        Highland_County
+      </text>
+    </g>
+<g key="1" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="14.12"
+        width="23.14"
+        height="14.83"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 0.8238888888888889"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="21.535"
+        font-family="Arial"
+      >
+        Manassas_Park_City
+      </text>
+    </g>
+<g key="2" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="28.96"
+        width="23.14"
+        height="17.84"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.6218181818181818"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="37.88"
+        font-family="Arial"
+      >
+        Norton_City
+      </text>
+    </g>
+<g key="3" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="46.79"
+        width="23.14"
+        height="20.8"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 1.7333333333333334"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="57.19"
+        font-family="Arial"
+      >
+        Craig_County
+      </text>
+    </g>
+<g key="4" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="67.59"
+        width="23.14"
+        height="23.62"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.2855555555555556"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="79.4"
+        font-family="Arial"
+      >
+        Clifton_Forge_City
+      </text>
+    </g>
+<g key="5" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="91.21"
+        width="23.14"
+        height="23.63"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.44625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="103.02499999999999"
+        font-family="Arial"
+      >
+        Buena_Vista_City
+      </text>
+    </g>
+<g key="6" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="114.83"
+        width="23.14"
+        height="24.1"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.1036363636363635"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="126.88"
+        font-family="Arial"
+      >
+        Bath_County
+      </text>
+    </g>
+<g key="7" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="138.94"
+        width="23.14"
+        height="24.34"
+        style="fill: #0645B4"
+      />
+      <text 
+        style="fill: white; font-size: 1.2178947368421054"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="151.10999999999999"
+        font-family="Arial"
+      >
+        Charles_City_County
+      </text>
+    </g>
+<g key="8" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="163.28"
+        width="23.14"
+        height="24.71"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.2178947368421054"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="175.635"
+        font-family="Arial"
+      >
+        Rappahannock_County
+      </text>
+    </g>
+<g key="9" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="187.99"
+        width="23.14"
+        height="24.85"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.101904761904762"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="200.41500000000002"
+        font-family="Arial"
+      >
+        King_and_Queen_County
+      </text>
+    </g>
+<g key="10" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="212.84"
+        width="23.14"
+        height="25.16"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.9283333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="225.42000000000002"
+        font-family="Arial"
+      >
+        Bland_County
+      </text>
+    </g>
+<g key="11" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="238"
+        width="23.14"
+        height="25.2"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.9283333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="250.6"
+        font-family="Arial"
+      >
+        Emporia_City
+      </text>
+    </g>
+<g key="12" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="263.2"
+        width="23.14"
+        height="25.39"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.6528571428571428"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="275.895"
+        font-family="Arial"
+      >
+        Lexington_City
+      </text>
+    </g>
+<g key="13" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="288.59"
+        width="23.14"
+        height="26.57"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.78"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="301.875"
+        font-family="Arial"
+      >
+        Greene_County
+      </text>
+    </g>
+<g key="14" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="315.16"
+        width="23.14"
+        height="28.54"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 1.5426666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="329.43"
+        font-family="Arial"
+      >
+        Richmond_County
+      </text>
+    </g>
+<g key="15" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="343.71"
+        width="23.14"
+        height="28.57"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.78"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="357.995"
+        font-family="Arial"
+      >
+        Franklin_City
+      </text>
+    </g>
+<g key="16" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="372.27"
+        width="23.14"
+        height="28.62"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.9283333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="386.58"
+        font-family="Arial"
+      >
+        Bedford_City
+      </text>
+    </g>
+<g key="17" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="400.89"
+        width="23.14"
+        height="29.57"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.314"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="415.675"
+        font-family="Arial"
+      >
+        Galax_City
+      </text>
+    </g>
+<g key="18" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="430.46"
+        width="23.14"
+        height="30.41"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 1.3611764705882354"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="445.66499999999996"
+        font-family="Arial"
+      >
+        South_Boston_City
+      </text>
+    </g>
+<g key="19" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="460.87"
+        width="23.14"
+        height="32.93"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 1.78"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="477.335"
+        font-family="Arial"
+      >
+        Poquoson_City
+      </text>
+    </g>
+<g key="20" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="493.81"
+        width="23.14"
+        height="32.98"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.5426666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="510.3"
+        font-family="Arial"
+      >
+        New_Kent_County
+      </text>
+    </g>
+<g key="21" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="526.79"
+        width="23.14"
+        height="34.06"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.9283333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="543.8199999999999"
+        font-family="Arial"
+      >
+        Essex_County
+      </text>
+    </g>
+<g key="22" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="560.85"
+        width="23.14"
+        height="34.39"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.3611764705882354"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="578.0450000000001"
+        font-family="Arial"
+      >
+        Cumberland_County
+      </text>
+    </g>
+<g key="23" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="595.25"
+        width="23.14"
+        height="34.56"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.5426666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="612.53"
+        font-family="Arial"
+      >
+        Fluvanna_County
+      </text>
+    </g>
+<g key="24" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="629.8"
+        width="23.14"
+        height="34.86"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.78"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="647.2299999999999"
+        font-family="Arial"
+      >
+        Clarke_County
+      </text>
+    </g>
+<g key="25" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="664.66"
+        width="23.14"
+        height="35.34"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 1.9283333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="11.57"
+        y="682.3299999999999"
+        font-family="Arial"
+      >
+        Surry_County
+      </text>
+    </g>
+<g key="26" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="0"
+        width="26.2"
+        height="32.6"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.4555555555555555"
+        dominant-baseline="central" text-anchor="middle" 
+        x="36.24"
+        y="16.3"
+        font-family="Arial"
+      >
+        King_George_County
+      </text>
+    </g>
+<g key="27" transform="scale(1, 1)"> 
+      <rect
+        x="49.34"
+        y="0"
+        width="26.91"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.681875"
+        dominant-baseline="central" text-anchor="middle" 
+        x="62.795"
+        y="16.3"
+        font-family="Arial"
+      >
+        Middlesex_County
+      </text>
+    </g>
+<g key="28" transform="scale(1, 1)"> 
+      <rect
+        x="76.26"
+        y="0"
+        width="27.95"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.4710526315789474"
+        dominant-baseline="central" text-anchor="middle" 
+        x="90.235"
+        y="16.3"
+        font-family="Arial"
+      >
+        King_William_County
+      </text>
+    </g>
+<g key="29" transform="scale(1, 1)"> 
+      <rect
+        x="104.21"
+        y="0"
+        width="28.03"
+        height="32.6"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 2.0021428571428572"
+        dominant-baseline="central" text-anchor="middle" 
+        x="118.225"
+        y="16.3"
+        font-family="Arial"
+      >
+        Covington_City
+      </text>
+    </g>
+<g key="30" transform="scale(1, 1)"> 
+      <rect
+        x="132.24"
+        y="0"
+        width="28.3"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.6647058823529413"
+        dominant-baseline="central" text-anchor="middle" 
+        x="146.39000000000001"
+        y="16.3"
+        font-family="Arial"
+      >
+        Williamsburg_City
+      </text>
+    </g>
+<g key="31" transform="scale(1, 1)"> 
+      <rect
+        x="160.53"
+        y="0"
+        width="28.59"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.0421428571428573"
+        dominant-baseline="central" text-anchor="middle" 
+        x="174.825"
+        y="16.3"
+        font-family="Arial"
+      >
+        Madison_County
+      </text>
+    </g>
+<g key="32" transform="scale(1, 1)"> 
+      <rect
+        x="189.12"
+        y="0"
+        width="29.25"
+        height="32.6"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 2.0892857142857144"
+        dominant-baseline="central" text-anchor="middle" 
+        x="203.745"
+        y="16.3"
+        font-family="Arial"
+      >
+        Mathews_County
+      </text>
+    </g>
+<g key="33" transform="scale(1, 1)"> 
+      <rect
+        x="218.37"
+        y="0"
+        width="30.62"
+        height="32.6"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.3553846153846156"
+        dominant-baseline="central" text-anchor="middle" 
+        x="233.68"
+        y="16.3"
+        font-family="Arial"
+      >
+        Amelia_County
+      </text>
+    </g>
+<g key="34" transform="scale(1, 1)"> 
+      <rect
+        x="249"
+        y="0"
+        width="32.2"
+        height="32.6"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 2.146666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="265.1"
+        y="16.3"
+        font-family="Arial"
+      >
+        Powhatan_County
+      </text>
+    </g>
+<g key="35" transform="scale(1, 1)"> 
+      <rect
+        x="281.2"
+        y="0"
+        width="32.29"
+        height="32.6"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 1.7938888888888889"
+        dominant-baseline="central" text-anchor="middle" 
+        x="297.34499999999997"
+        y="16.3"
+        font-family="Arial"
+      >
+        Greensville_County
+      </text>
+    </g>
+<g key="36" transform="scale(1, 1)"> 
+      <rect
+        x="313.49"
+        y="0"
+        width="32.34"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.02125"
+        dominant-baseline="central" text-anchor="middle" 
+        x="329.66"
+        y="16.3"
+        font-family="Arial"
+      >
+        Lunenburg_County
+      </text>
+    </g>
+<g key="37" transform="scale(1, 1)"> 
+      <rect
+        x="345.83"
+        y="0"
+        width="33.1"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.5076923076923077"
+        dominant-baseline="central" text-anchor="middle" 
+        x="362.38"
+        y="16.3"
+        font-family="Arial"
+      >
+        Manassas_City
+      </text>
+    </g>
+<g key="38" transform="scale(1, 1)"> 
+      <rect
+        x="378.93"
+        y="0"
+        width="33.28"
+        height="32.6"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.9176470588235295"
+        dominant-baseline="central" text-anchor="middle" 
+        x="395.57"
+        y="16.3"
+        font-family="Arial"
+      >
+        Buckingham_County
+      </text>
+    </g>
+<g key="39" transform="scale(1, 1)"> 
+      <rect
+        x="412.21"
+        y="0"
+        width="34.21"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.9176470588235295"
+        dominant-baseline="central" text-anchor="middle" 
+        x="429.315"
+        y="16.3"
+        font-family="Arial"
+      >
+        Appomattox_County
+      </text>
+    </g>
+<g key="40" transform="scale(1, 1)"> 
+      <rect
+        x="446.42"
+        y="0"
+        width="34.76"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.716666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="463.8"
+        y="16.3"
+        font-family="Arial"
+      >
+        Floyd_County
+      </text>
+    </g>
+<g key="41" transform="scale(1, 1)"> 
+      <rect
+        x="481.18"
+        y="0"
+        width="35.66"
+        height="32.6"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 2.5076923076923077"
+        dominant-baseline="central" text-anchor="middle" 
+        x="499.01"
+        y="16.3"
+        font-family="Arial"
+      >
+        Nelson_County
+      </text>
+    </g>
+<g key="42" transform="scale(1, 1)"> 
+      <rect
+        x="516.84"
+        y="0"
+        width="36.08"
+        height="32.6"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 2.0375"
+        dominant-baseline="central" text-anchor="middle" 
+        x="534.88"
+        y="16.3"
+        font-family="Arial"
+      >
+        Lancaster_County
+      </text>
+    </g>
+<g key="43" transform="scale(1, 1)"> 
+      <rect
+        x="552.92"
+        y="0"
+        width="36.26"
+        height="32.6"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 2.5076923076923077"
+        dominant-baseline="central" text-anchor="middle" 
+        x="571.05"
+        y="16.3"
+        font-family="Arial"
+      >
+        Sussex_County
+      </text>
+    </g>
+<g key="44" transform="scale(1, 1)"> 
+      <rect
+        x="589.18"
+        y="0"
+        width="36.51"
+        height="32.6"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.716666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="607.435"
+        y="16.3"
+        font-family="Arial"
+      >
+        Radford_City
+      </text>
+    </g>
+<g key="45" transform="scale(1, 1)"> 
+      <rect
+        x="625.69"
+        y="0"
+        width="36.54"
+        height="32.6"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.5523809523809524"
+        dominant-baseline="central" text-anchor="middle" 
+        x="643.96"
+        y="16.3"
+        font-family="Arial"
+      >
+        Northumberland_County
+      </text>
+    </g>
+<g key="46" transform="scale(1, 1)"> 
+      <rect
+        x="662.23"
+        y="0"
+        width="37.77"
+        height="32.6"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.0375"
+        dominant-baseline="central" text-anchor="middle" 
+        x="681.115"
+        y="16.3"
+        font-family="Arial"
+      >
+        Alleghany_County
+      </text>
+    </g>
+<g key="47" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="32.6"
+        width="37.13"
+        height="34.17"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.135625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="49.685"
+        font-family="Arial"
+      >
+        Charlotte_County
+      </text>
+    </g>
+<g key="48" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="66.77"
+        width="37.13"
+        height="34.64"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.165"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="84.09"
+        font-family="Arial"
+      >
+        Goochland_County
+      </text>
+    </g>
+<g key="49" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="101.41"
+        width="37.13"
+        height="35.52"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.8694736842105264"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="119.17"
+        font-family="Arial"
+      >
+        Westmoreland_County
+      </text>
+    </g>
+<g key="50" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="136.94"
+        width="37.13"
+        height="35.68"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.0988235294117645"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="154.78"
+        font-family="Arial"
+      >
+        Falls_Church_City
+      </text>
+    </g>
+<g key="51" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="172.61"
+        width="37.13"
+        height="36.82"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.0455555555555556"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="191.02"
+        font-family="Arial"
+      >
+        Northampton_County
+      </text>
+    </g>
+<g key="52" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="209.43"
+        width="37.13"
+        height="37.29"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 2.4753333333333334"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="228.07500000000002"
+        font-family="Arial"
+      >
+        Caroline_County
+      </text>
+    </g>
+<g key="53" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="246.73"
+        width="37.13"
+        height="38.41"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.1841176470588235"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="265.935"
+        font-family="Arial"
+      >
+        Rockbridge_County
+      </text>
+    </g>
+<g key="54" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="285.14"
+        width="37.13"
+        height="38.57"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.8565"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="304.425"
+        font-family="Arial"
+      >
+        Prince_George_County
+      </text>
+    </g>
+<g key="55" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="323.71"
+        width="37.13"
+        height="39.93"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.8561538461538465"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="343.67499999999995"
+        font-family="Arial"
+      >
+        Louisa_County
+      </text>
+    </g>
+<g key="56" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="363.65"
+        width="37.13"
+        height="40.05"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 1.9542105263157896"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="383.67499999999995"
+        font-family="Arial"
+      >
+        Fredericksburg_City
+      </text>
+    </g>
+<g key="57" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="403.69"
+        width="37.13"
+        height="40.13"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.8561538461538465"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="423.755"
+        font-family="Arial"
+      >
+        Orange_County
+      </text>
+    </g>
+<g key="58" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="443.83"
+        width="37.13"
+        height="40.61"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.4753333333333334"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="464.135"
+        font-family="Arial"
+      >
+        Nottoway_County
+      </text>
+    </g>
+<g key="59" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="484.43"
+        width="37.13"
+        height="41.67"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 2.1841176470588235"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="505.265"
+        font-family="Arial"
+      >
+        Harrisonburg_City
+      </text>
+    </g>
+<g key="60" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="526.1"
+        width="37.13"
+        height="41.81"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.652142857142857"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="547.005"
+        font-family="Arial"
+      >
+        Patrick_County
+      </text>
+    </g>
+<g key="61" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="567.91"
+        width="37.13"
+        height="42.22"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.8565"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="589.02"
+        font-family="Arial"
+      >
+        Prince_Edward_County
+      </text>
+    </g>
+<g key="62" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="610.13"
+        width="37.13"
+        height="44.08"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.320625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="632.17"
+        font-family="Arial"
+      >
+        Brunswick_County
+      </text>
+    </g>
+<g key="63" transform="scale(1, 1)"> 
+      <rect
+        x="23.14"
+        y="654.21"
+        width="37.13"
+        height="45.79"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.062777777777778"
+        dominant-baseline="central" text-anchor="middle" 
+        x="41.705"
+        y="677.105"
+        font-family="Arial"
+      >
+        Southampton_County
+      </text>
+    </g>
+<g key="64" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="32.6"
+        width="37.82"
+        height="45.16"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 2.521333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="79.18"
+        y="55.18"
+        font-family="Arial"
+      >
+        Waynesboro_City
+      </text>
+    </g>
+<g key="65" transform="scale(1, 1)"> 
+      <rect
+        x="98.1"
+        y="32.6"
+        width="39.84"
+        height="45.16"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.845714285714286"
+        dominant-baseline="central" text-anchor="middle" 
+        x="118.02"
+        y="55.18"
+        font-family="Arial"
+      >
+        Grayson_County
+      </text>
+    </g>
+<g key="66" transform="scale(1, 1)"> 
+      <rect
+        x="137.94"
+        y="32.6"
+        width="40.67"
+        height="45.16"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.3891666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="158.275"
+        y="55.18"
+        font-family="Arial"
+      >
+        Bristol_City
+      </text>
+    </g>
+<g key="67" transform="scale(1, 1)"> 
+      <rect
+        x="178.61"
+        y="32.6"
+        width="40.95"
+        height="45.16"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.408823529411765"
+        dominant-baseline="central" text-anchor="middle" 
+        x="199.085"
+        y="55.18"
+        font-family="Arial"
+      >
+        Gloucester_County
+      </text>
+    </g>
+<g key="68" transform="scale(1, 1)"> 
+      <rect
+        x="219.56"
+        y="32.6"
+        width="41.27"
+        height="45.16"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.4276470588235295"
+        dominant-baseline="central" text-anchor="middle" 
+        x="240.195"
+        y="55.18"
+        font-family="Arial"
+      >
+        James_City_County
+      </text>
+    </g>
+<g key="69" transform="scale(1, 1)"> 
+      <rect
+        x="260.83"
+        y="32.6"
+        width="41.39"
+        height="45.16"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 2.586875"
+        dominant-baseline="central" text-anchor="middle" 
+        x="281.525"
+        y="55.18"
+        font-family="Arial"
+      >
+        Dinwiddie_County
+      </text>
+    </g>
+<g key="70" transform="scale(1, 1)"> 
+      <rect
+        x="302.22"
+        y="32.6"
+        width="41.46"
+        height="45.16"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 2.7640000000000002"
+        dominant-baseline="central" text-anchor="middle" 
+        x="322.95000000000005"
+        y="55.18"
+        font-family="Arial"
+      >
+        Winchester_City
+      </text>
+    </g>
+<g key="71" transform="scale(1, 1)"> 
+      <rect
+        x="343.67"
+        y="32.6"
+        width="41.67"
+        height="45.16"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.2053846153846157"
+        dominant-baseline="central" text-anchor="middle" 
+        x="364.505"
+        y="55.18"
+        font-family="Arial"
+      >
+        Warren_County
+      </text>
+    </g>
+<g key="72" transform="scale(1, 1)"> 
+      <rect
+        x="385.35"
+        y="32.6"
+        width="42.82"
+        height="45.16"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 2.8546666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="406.76000000000005"
+        y="55.18"
+        font-family="Arial"
+      >
+        Culpeper_County
+      </text>
+    </g>
+<g key="73" transform="scale(1, 1)"> 
+      <rect
+        x="428.16"
+        y="32.6"
+        width="43.09"
+        height="45.16"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.5908333333333338"
+        dominant-baseline="central" text-anchor="middle" 
+        x="449.70500000000004"
+        y="55.18"
+        font-family="Arial"
+      >
+        Giles_County
+      </text>
+    </g>
+<g key="74" transform="scale(1, 1)"> 
+      <rect
+        x="471.25"
+        y="32.6"
+        width="44.34"
+        height="45.16"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 2.1114285714285717"
+        dominant-baseline="central" text-anchor="middle" 
+        x="493.42"
+        y="55.18"
+        font-family="Arial"
+      >
+        Colonial_Heights_City
+      </text>
+    </g>
+<g key="75" transform="scale(1, 1)"> 
+      <rect
+        x="515.59"
+        y="32.6"
+        width="44.34"
+        height="45.16"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.608235294117647"
+        dominant-baseline="central" text-anchor="middle" 
+        x="537.76"
+        y="55.18"
+        font-family="Arial"
+      >
+        Martinsville_City
+      </text>
+    </g>
+<g key="76" transform="scale(1, 1)"> 
+      <rect
+        x="559.93"
+        y="32.6"
+        width="44.82"
+        height="45.16"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 2.241"
+        dominant-baseline="central" text-anchor="middle" 
+        x="582.3399999999999"
+        y="55.18"
+        font-family="Arial"
+      >
+        Isle_of_Wight_County
+      </text>
+    </g>
+<g key="77" transform="scale(1, 1)"> 
+      <rect
+        x="604.75"
+        y="32.6"
+        width="46.91"
+        height="45.16"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 4.1054545454545455"
+        dominant-baseline="central" text-anchor="middle" 
+        x="628.205"
+        y="55.18"
+        font-family="Arial"
+      >
+        Page_County
+      </text>
+    </g>
+<g key="78" transform="scale(1, 1)"> 
+      <rect
+        x="651.66"
+        y="32.6"
+        width="48.34"
+        height="45.16"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.3768421052631576"
+        dominant-baseline="central" text-anchor="middle" 
+        x="675.8299999999999"
+        y="55.18"
+        font-family="Arial"
+      >
+        Spotsylvania_County
+      </text>
+    </g>
+<g key="79" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="77.76"
+        width="50.21"
+        height="43.55"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.721875"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="99.535"
+        font-family="Arial"
+      >
+        Botetourt_County
+      </text>
+    </g>
+<g key="80" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="121.31"
+        width="50.21"
+        height="44.72"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.1942857142857144"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="143.67000000000002"
+        font-family="Arial"
+      >
+        Amherst_County
+      </text>
+    </g>
+<g key="81" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="166.03"
+        width="50.21"
+        height="44.9"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.4538461538461536"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="188.48"
+        font-family="Arial"
+      >
+        Hopewell_City
+      </text>
+    </g>
+<g key="82" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="210.93"
+        width="50.21"
+        height="44.99"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.749166666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="233.425"
+        font-family="Arial"
+      >
+        Fairfax_City
+      </text>
+    </g>
+<g key="83" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="255.92"
+        width="50.21"
+        height="45.22"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.4784615384615383"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="278.53"
+        font-family="Arial"
+      >
+        Staunton_City
+      </text>
+    </g>
+<g key="84" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="301.13"
+        width="50.21"
+        height="47.21"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 2.950625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="324.735"
+        font-family="Arial"
+      >
+        Dickenson_County
+      </text>
+    </g>
+<g key="85" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="348.34"
+        width="50.21"
+        height="47.39"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.9491666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="372.03499999999997"
+        font-family="Arial"
+      >
+        Wythe_County
+      </text>
+    </g>
+<g key="86" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="395.74"
+        width="50.21"
+        height="49.87"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.116875"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="420.675"
+        font-family="Arial"
+      >
+        Frederick_County
+      </text>
+    </g>
+<g key="87" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="445.61"
+        width="50.21"
+        height="49.98"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.997999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="470.6"
+        font-family="Arial"
+      >
+        Salem_City
+      </text>
+    </g>
+<g key="88" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="495.58"
+        width="50.21"
+        height="50.02"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.572857142857143"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="520.59"
+        font-family="Arial"
+      >
+        Halifax_County
+      </text>
+    </g>
+<g key="89" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="545.6"
+        width="50.21"
+        height="50.43"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 2.7894444444444444"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="570.815"
+        font-family="Arial"
+      >
+        Mecklenburg_County
+      </text>
+    </g>
+<g key="90" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="596.03"
+        width="50.21"
+        height="51.57"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.5864285714285713"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="621.8149999999999"
+        font-family="Arial"
+      >
+        Carroll_County
+      </text>
+    </g>
+<g key="91" transform="scale(1, 1)"> 
+      <rect
+        x="60.27"
+        y="647.6"
+        width="50.21"
+        height="52.4"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.3473333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="85.375"
+        y="673.8000000000001"
+        font-family="Arial"
+      >
+        Fauquier_County
+      </text>
+    </g>
+<g key="92" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="77.76"
+        width="49.36"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.525714285714286"
+        dominant-baseline="central" text-anchor="middle" 
+        x="135.16"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Bedford_County
+      </text>
+    </g>
+<g key="93" transform="scale(1, 1)"> 
+      <rect
+        x="159.84"
+        y="77.76"
+        width="50.69"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.224166666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="185.185"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Scott_County
+      </text>
+    </g>
+<g key="94" transform="scale(1, 1)"> 
+      <rect
+        x="210.53"
+        y="77.76"
+        width="50.73"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.3819999999999997"
+        dominant-baseline="central" text-anchor="middle" 
+        x="235.895"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Stafford_County
+      </text>
+    </g>
+<g key="95" transform="scale(1, 1)"> 
+      <rect
+        x="261.26"
+        y="77.76"
+        width="50.91"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.3939999999999997"
+        dominant-baseline="central" text-anchor="middle" 
+        x="286.715"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Accomack_County
+      </text>
+    </g>
+<g key="96" transform="scale(1, 1)"> 
+      <rect
+        x="312.17"
+        y="77.76"
+        width="52.48"
+        height="54.08"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.0870588235294116"
+        dominant-baseline="central" text-anchor="middle" 
+        x="338.41"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Shenandoah_County
+      </text>
+    </g>
+<g key="97" transform="scale(1, 1)"> 
+      <rect
+        x="364.65"
+        y="77.76"
+        width="54.18"
+        height="54.08"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 3.6053333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="391.73999999999995"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Franklin_County
+      </text>
+    </g>
+<g key="98" transform="scale(1, 1)"> 
+      <rect
+        x="418.83"
+        y="77.76"
+        width="54.9"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.4079999999999995"
+        dominant-baseline="central" text-anchor="middle" 
+        x="446.28"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Lee_County
+      </text>
+    </g>
+<g key="99" transform="scale(1, 1)"> 
+      <rect
+        x="473.73"
+        y="77.76"
+        width="55.79"
+        height="54.08"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 4.916363636363636"
+        dominant-baseline="central" text-anchor="middle" 
+        x="501.625"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        York_County
+      </text>
+    </g>
+<g key="100" transform="scale(1, 1)"> 
+      <rect
+        x="529.53"
+        y="77.76"
+        width="56.72"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.8628571428571425"
+        dominant-baseline="central" text-anchor="middle" 
+        x="557.89"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Pulaski_County
+      </text>
+    </g>
+<g key="101" transform="scale(1, 1)"> 
+      <rect
+        x="586.24"
+        y="77.76"
+        width="56.81"
+        height="54.08"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.506666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="614.645"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Smyth_County
+      </text>
+    </g>
+<g key="102" transform="scale(1, 1)"> 
+      <rect
+        x="643.05"
+        y="77.76"
+        width="56.95"
+        height="54.08"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.8628571428571425"
+        dominant-baseline="central" text-anchor="middle" 
+        x="671.525"
+        y="104.80000000000001"
+        font-family="Arial"
+      >
+        Russell_County
+      </text>
+    </g>
+<g key="103" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="131.84"
+        width="61.51"
+        height="50.36"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.3573333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="157.02"
+        font-family="Arial"
+      >
+        Buchanan_County
+      </text>
+    </g>
+<g key="104" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="182.2"
+        width="61.51"
+        height="57.48"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.832"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="210.94"
+        font-family="Arial"
+      >
+        Campbell_County
+      </text>
+    </g>
+<g key="105" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="239.69"
+        width="61.51"
+        height="61.41"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 4.093999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="270.395"
+        font-family="Arial"
+      >
+        Petersburg_City
+      </text>
+    </g>
+<g key="106" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="301.1"
+        width="61.51"
+        height="62.67"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.591818181818182"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="332.435"
+        font-family="Arial"
+      >
+        Wise_County
+      </text>
+    </g>
+<g key="107" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="363.77"
+        width="61.51"
+        height="63.09"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 4.100666666666666"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="395.315"
+        font-family="Arial"
+      >
+        Tazewell_County
+      </text>
+    </g>
+<g key="108" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="426.86"
+        width="61.51"
+        height="65.11"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 3.0755"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="459.415"
+        font-family="Arial"
+      >
+        Charlottesville_City
+      </text>
+    </g>
+<g key="109" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="491.96"
+        width="61.51"
+        height="65.79"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.618235294117647"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="524.855"
+        font-family="Arial"
+      >
+        Washington_County
+      </text>
+    </g>
+<g key="110" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="557.76"
+        width="61.51"
+        height="68.97"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 4.393571428571429"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="592.245"
+        font-family="Arial"
+      >
+        Augusta_County
+      </text>
+    </g>
+<g key="111" transform="scale(1, 1)"> 
+      <rect
+        x="110.48"
+        y="626.73"
+        width="61.51"
+        height="73.27"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 5.1258333333333335"
+        dominant-baseline="central" text-anchor="middle" 
+        x="141.235"
+        y="663.365"
+        font-family="Arial"
+      >
+        Suffolk_City
+      </text>
+    </g>
+<g key="112" transform="scale(1, 1)"> 
+      <rect
+        x="171.99"
+        y="131.84"
+        width="61.61"
+        height="73.78"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.6241176470588234"
+        dominant-baseline="central" text-anchor="middle" 
+        x="202.79500000000002"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Montgomery_County
+      </text>
+    </g>
+<g key="113" transform="scale(1, 1)"> 
+      <rect
+        x="233.59"
+        y="131.84"
+        width="61.79"
+        height="73.78"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 3.6347058823529412"
+        dominant-baseline="central" text-anchor="middle" 
+        x="264.485"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Rockingham_County
+      </text>
+    </g>
+<g key="114" transform="scale(1, 1)"> 
+      <rect
+        x="295.39"
+        y="131.84"
+        width="62.71"
+        height="73.78"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 5.225833333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="326.745"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Henry_County
+      </text>
+    </g>
+<g key="115" transform="scale(1, 1)"> 
+      <rect
+        x="358.1"
+        y="131.84"
+        width="65.09"
+        height="73.78"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 4.068125"
+        dominant-baseline="central" text-anchor="middle" 
+        x="390.64500000000004"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Albemarle_County
+      </text>
+    </g>
+<g key="116" transform="scale(1, 1)"> 
+      <rect
+        x="423.19"
+        y="131.84"
+        width="67.36"
+        height="73.78"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 5.181538461538461"
+        dominant-baseline="central" text-anchor="middle" 
+        x="456.87"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Danville_City
+      </text>
+    </g>
+<g key="117" transform="scale(1, 1)"> 
+      <rect
+        x="490.55"
+        y="131.84"
+        width="69.46"
+        height="73.78"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 4.961428571428571"
+        dominant-baseline="central" text-anchor="middle" 
+        x="525.28"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Loudoun_County
+      </text>
+    </g>
+<g key="118" transform="scale(1, 1)"> 
+      <rect
+        x="560"
+        y="131.84"
+        width="69.89"
+        height="73.78"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 4.992142857142857"
+        dominant-baseline="central" text-anchor="middle" 
+        x="594.945"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Hanover_County
+      </text>
+    </g>
+<g key="119" transform="scale(1, 1)"> 
+      <rect
+        x="629.9"
+        y="131.84"
+        width="70.1"
+        height="73.78"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 3.689473684210526"
+        dominant-baseline="central" text-anchor="middle" 
+        x="664.9499999999999"
+        y="168.73000000000002"
+        font-family="Arial"
+      >
+        Pittsylvania_County
+      </text>
+    </g>
+<g key="120" transform="scale(1, 1)"> 
+      <rect
+        x="171.99"
+        y="205.62"
+        width="87.83"
+        height="78.26"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 5.590000000000001"
+        dominant-baseline="central" text-anchor="middle" 
+        x="215.905"
+        y="244.75"
+        font-family="Arial"
+      >
+        Lynchburg_City
+      </text>
+    </g>
+<g key="121" transform="scale(1, 1)"> 
+      <rect
+        x="171.99"
+        y="283.88"
+        width="87.83"
+        height="88.59"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 6.273571428571429"
+        dominant-baseline="central" text-anchor="middle" 
+        x="215.905"
+        y="328.175"
+        font-family="Arial"
+      >
+        Roanoke_County
+      </text>
+    </g>
+<g key="122" transform="scale(1, 1)"> 
+      <rect
+        x="171.99"
+        y="372.47"
+        width="87.83"
+        height="103.64"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 4.182380952380952"
+        dominant-baseline="central" text-anchor="middle" 
+        x="215.905"
+        y="424.29"
+        font-family="Arial"
+      >
+        Prince_William_County
+      </text>
+    </g>
+<g key="123" transform="scale(1, 1)"> 
+      <rect
+        x="171.99"
+        y="476.1"
+        width="87.83"
+        height="105.72"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.855333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="215.905"
+        y="528.96"
+        font-family="Arial"
+      >
+        Chesapeake_City
+      </text>
+    </g>
+<g key="124" transform="scale(1, 1)"> 
+      <rect
+        x="171.99"
+        y="581.82"
+        width="87.83"
+        height="118.18"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.319166666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="215.905"
+        y="640.9100000000001"
+        font-family="Arial"
+      >
+        Roanoke_City
+      </text>
+    </g>
+<g key="125" transform="scale(1, 1)"> 
+      <rect
+        x="259.82"
+        y="205.62"
+        width="103.96"
+        height="100.12"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 8.343333333333334"
+        dominant-baseline="central" text-anchor="middle" 
+        x="311.8"
+        y="255.68"
+        font-family="Arial"
+      >
+        Hampton_City
+      </text>
+    </g>
+<g key="126" transform="scale(1, 1)"> 
+      <rect
+        x="363.77"
+        y="205.62"
+        width="104.53"
+        height="100.12"
+        style="fill: #86B6F2"
+      />
+      <text 
+        style="fill: black; font-size: 6.674666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="416.03499999999997"
+        y="255.68"
+        font-family="Arial"
+      >
+        Portsmouth_City
+      </text>
+    </g>
+<g key="127" transform="scale(1, 1)"> 
+      <rect
+        x="468.3"
+        y="205.62"
+        width="109.33"
+        height="100.12"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.674666666666667"
+        dominant-baseline="central" text-anchor="middle" 
+        x="522.965"
+        y="255.68"
+        font-family="Arial"
+      >
+        Alexandria_City
+      </text>
+    </g>
+<g key="128" transform="scale(1, 1)"> 
+      <rect
+        x="577.62"
+        y="205.62"
+        width="122.38"
+        height="100.12"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 5.269473684210527"
+        dominant-baseline="central" text-anchor="middle" 
+        x="638.81"
+        y="255.68"
+        font-family="Arial"
+      >
+        Chesterfield_County
+      </text>
+    </g>
+<g key="129" transform="scale(1, 1)"> 
+      <rect
+        x="259.82"
+        y="305.74"
+        width="126.41"
+        height="101.62"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 5.977647058823529"
+        dominant-baseline="central" text-anchor="middle" 
+        x="323.025"
+        y="356.55"
+        font-family="Arial"
+      >
+        Newport_News_City
+      </text>
+    </g>
+<g key="130" transform="scale(1, 1)"> 
+      <rect
+        x="259.82"
+        y="407.37"
+        width="126.41"
+        height="145.08"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 6.653157894736842"
+        dominant-baseline="central" text-anchor="middle" 
+        x="323.025"
+        y="479.91"
+        font-family="Arial"
+      >
+        Virginia_Beach_City
+      </text>
+    </g>
+<g key="131" transform="scale(1, 1)"> 
+      <rect
+        x="259.82"
+        y="552.45"
+        width="126.41"
+        height="147.55"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 7.900625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="323.025"
+        y="626.225"
+        font-family="Arial"
+      >
+        Arlington_County
+      </text>
+    </g>
+<g key="132" transform="scale(1, 1)"> 
+      <rect
+        x="386.23"
+        y="305.74"
+        width="155.29"
+        height="128.26"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 9.161428571428571"
+        dominant-baseline="central" text-anchor="middle" 
+        x="463.875"
+        y="369.87"
+        font-family="Arial"
+      >
+        Henrico_County
+      </text>
+    </g>
+<g key="133" transform="scale(1, 1)"> 
+      <rect
+        x="541.51"
+        y="305.74"
+        width="158.49"
+        height="128.26"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 10.688333333333333"
+        dominant-baseline="central" text-anchor="middle" 
+        x="620.755"
+        y="369.87"
+        font-family="Arial"
+      >
+        Norfolk_City
+      </text>
+    </g>
+<g key="134" transform="scale(1, 1)"> 
+      <rect
+        x="386.23"
+        y="434"
+        width="90.21"
+        height="266"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 6.939230769230769"
+        dominant-baseline="central" text-anchor="middle" 
+        x="431.33500000000004"
+        y="567"
+        font-family="Arial"
+      >
+        Richmond_City
+      </text>
+    </g>
+<g key="135" transform="scale(1, 1)"> 
+      <rect
+        x="476.44"
+        y="434"
+        width="223.56"
+        height="266"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 15.968571428571428"
+        dominant-baseline="central" text-anchor="middle" 
+        x="588.22"
+        y="567"
+        font-family="Arial"
+      >
+        Fairfax_County
+      </text>
+    </g>
+</svg>

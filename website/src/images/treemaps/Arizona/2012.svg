@@ -1,0 +1,272 @@
+<svg version="1.1" height="100%" width="100%" viewbox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+<g key="0" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="0"
+        width="49.05"
+        height="12.92"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 1.615"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="6.46"
+        font-family="Arial"
+      >
+        Greenlee
+      </text>
+    </g>
+<g key="1" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="12.92"
+        width="49.05"
+        height="24.84"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 4.14"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="25.34"
+        font-family="Arial"
+      >
+        La_Paz
+      </text>
+    </g>
+<g key="2" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="37.76"
+        width="49.05"
+        height="51.51"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 8.174999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="63.515"
+        font-family="Arial"
+      >
+        Graham
+      </text>
+    </g>
+<g key="3" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="89.27"
+        width="49.05"
+        height="60.37"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 4.904999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="119.455"
+        font-family="Arial"
+      >
+        Santa_Cruz
+      </text>
+    </g>
+<g key="4" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="149.64"
+        width="49.05"
+        height="93.54"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 12.2625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="196.41"
+        font-family="Arial"
+      >
+        Gila
+      </text>
+    </g>
+<g key="5" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="243.18"
+        width="49.05"
+        height="112.31"
+        style="fill: #4389E3"
+      />
+      <text 
+        style="fill: white; font-size: 8.174999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="299.33500000000004"
+        font-family="Arial"
+      >
+        Apache
+      </text>
+    </g>
+<g key="6" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="355.49"
+        width="49.05"
+        height="162.22"
+        style="fill: #FFD4D4"
+      />
+      <text 
+        style="fill: black; font-size: 8.174999999999999"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="436.6"
+        font-family="Arial"
+      >
+        Navajo
+      </text>
+    </g>
+<g key="7" transform="scale(1, 1)"> 
+      <rect
+        x="0"
+        y="517.71"
+        width="49.05"
+        height="182.29"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 12.2625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="24.525"
+        y="608.855"
+        font-family="Arial"
+      >
+        Yuma
+      </text>
+    </g>
+<g key="8" transform="scale(1, 1)"> 
+      <rect
+        x="49.05"
+        y="0"
+        width="84.09"
+        height="124.19"
+        style="fill: #FF7F7F"
+      />
+      <text 
+        style="fill: white; font-size: 12.012857142857143"
+        dominant-baseline="central" text-anchor="middle" 
+        x="91.095"
+        y="62.095"
+        font-family="Arial"
+      >
+        Cochise
+      </text>
+    </g>
+<g key="9" transform="scale(1, 1)"> 
+      <rect
+        x="133.14"
+        y="0"
+        width="88.77"
+        height="124.19"
+        style="fill: #ABD3FF"
+      />
+      <text 
+        style="fill: black; font-size: 11.09625"
+        dominant-baseline="central" text-anchor="middle" 
+        x="177.52499999999998"
+        y="62.095"
+        font-family="Arial"
+      >
+        Coconino
+      </text>
+    </g>
+<g key="10" transform="scale(1, 1)"> 
+      <rect
+        x="221.9"
+        y="0"
+        width="120.13"
+        height="124.19"
+        style="fill: #FF0000"
+      />
+      <text 
+        style="fill: white; font-size: 20.021666666666665"
+        dominant-baseline="central" text-anchor="middle" 
+        x="281.96500000000003"
+        y="62.095"
+        font-family="Arial"
+      >
+        Mohave
+      </text>
+    </g>
+<g key="11" transform="scale(1, 1)"> 
+      <rect
+        x="342.03"
+        y="0"
+        width="172.09"
+        height="124.19"
+        style="fill: #FF4C4C"
+      />
+      <text 
+        style="fill: white; font-size: 17.74142857142857"
+        dominant-baseline="central" text-anchor="middle" 
+        x="428.075"
+        y="62.095"
+        font-family="Arial"
+      >
+        Yavapai
+      </text>
+    </g>
+<g key="12" transform="scale(1, 1)"> 
+      <rect
+        x="514.12"
+        y="0"
+        width="185.88"
+        height="124.19"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 24.838"
+        dominant-baseline="central" text-anchor="middle" 
+        x="607.06"
+        y="62.095"
+        font-family="Arial"
+      >
+        Pinal
+      </text>
+    </g>
+<g key="13" transform="scale(1, 1)"> 
+      <rect
+        x="49.05"
+        y="124.19"
+        width="141.47"
+        height="575.81"
+        style="fill: #C5E1FF"
+      />
+      <text 
+        style="fill: black; font-size: 35.3675"
+        dominant-baseline="central" text-anchor="middle" 
+        x="119.785"
+        y="412.09499999999997"
+        font-family="Arial"
+      >
+        Pima
+      </text>
+    </g>
+<g key="14" transform="scale(1, 1)"> 
+      <rect
+        x="190.52"
+        y="124.19"
+        width="509.48"
+        height="575.81"
+        style="fill: #FFB2B2"
+      />
+      <text 
+        style="fill: black; font-size: 63.685"
+        dominant-baseline="central" text-anchor="middle" 
+        x="445.26"
+        y="412.09499999999997"
+        font-family="Arial"
+      >
+        Maricopa
+      </text>
+    </g>
+</svg>

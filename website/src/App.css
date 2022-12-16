@@ -15,9 +15,6 @@ body {
 }
 
 #hexGrid {
-  /*background-image: repeating-linear-gradient(45deg, #eee 10px, #eee 12px, transparent 12px, transparent 20px);*/
-  /*background: radial-gradient(#e66465, #9198e5);
-  background-size: 50px 50px;*/
   height: 100%;
   width: 100%;
   position: fixed;
@@ -31,8 +28,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items:center;
-  min-height: 500px;
+  min-height: 100vh;
 }
+
+
 .App,.App-header{
   display:flex;
   color:#fff;
@@ -43,9 +42,11 @@ body {
   justify-content:center;
 }
 
-.page, .App-header {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+.page, .App-header, .aboutMeScreen {
+  width:70%;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color:rgba(40,44,52, .8);
 }
 
 .App-header a{
@@ -77,20 +78,26 @@ button:active{
   opacity:.3
 }
 .aboutMeScreen{
-  justify-content:center;
-  height: 100%;
-  padding-left: 1em;
+  justify-content:flex-start;
+  min-height: 100vh;
 }
-.aboutMeScreen,.aboutMeSection{
-  display:flex;
-  flex-direction:column
+.aboutMeScreen,.aboutMeSection {
+  display: flex;
+  flex-direction: column
 }
-.aboutMeSection{
-  align-items:flex-start
+.aboutMeSection { 
+  align-items: flex-start;
+  margin-bottom: 1.5em;
 }
-.aboutMeScreen *, .noMarginBlock *  {
+.aboutMeScreen *, .noMarginBlock *, .page *  {
   margin-block-start:0;
-  margin-block-end:0
+  margin-block-end: 0
+}
+.aboutMeSection p, .homeScreen p {
+  margin-bottom: 1.5em;
+}
+.homeScreen p {
+  margin-top: 1em
 }
 
 .aboutMeScreen p,li,ul{
@@ -108,17 +115,6 @@ button:active{
   opacity:.3
 }
 
-.App-header, .page, .aboutMeScreen {
-  width:70%;
-}
-
-.aboutMeScreen, .page, .App-header {
-  background-color:rgba(40,44,52, .8);
-}
-
-/*.aboutMeSection *, .aboutMeScreen * {
-  background-color:rgba(40,44,52, 0);
-}*/
 
 .treemapButton {
   width: 50px;
@@ -136,10 +132,22 @@ button:active{
   height: 500px;
   width: 500px;
   resize: both;
-  overflow: auto;
+  overflow: hidden;
   max-height: fit-content;
   max-width: fit-content;
   border: 10px solid white;
   background-color: white;
   margin-bottom: 10px;
+}
+
+.sectionHeader {
+  width: 100%;
+}
+
+.openSH {
+  margin-bottom: 0.5em;
+}
+
+.closedSH {
+  margin-bottom: 1em;
 }

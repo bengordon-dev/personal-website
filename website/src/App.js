@@ -2,12 +2,12 @@ import './App.css';
 import React from "react"
 
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
-import Home from './Home';
-import Projects from "./Projects"
-import Elections from "./Elections"
-import AboutMe from './AboutMe';
-import Treemaps from './Treemaps';
-import EVPerVote from './EVPerVote';
+import Home from './pages/Home';
+import Projects from './pages/Projects'
+import Elections from './pages/Elections'
+import AboutMe from './pages/AboutMe';
+import Treemaps from './pages/Treemaps';
+import EVPerVote from './pages/EVPerVote';
 
 
 function pointCoords(index, number) { // number on [0, 5], index is a property of the hexagon
@@ -21,17 +21,11 @@ function pointCoords(index, number) { // number on [0, 5], index is a property o
 let colors = ["#A6D06C", /*"#ACAC56",*/ "#3D893E", /*"#E3D568", /*"#53AB3A", "#4D7FC4"*/]
 
 
-//double centerX = container.topLeftX + container.hexSize*(1 + 1.5*x);
-//double centerY = container.topLeftY + container.hexSize*Math.sqrt(3)*(.5 + y + .5*(x%2));
-
-
 export default function App() {
-  
-
   return (
     <BrowserRouter>
       <div className="App">
-        <header className="App-header" style={{paddingLeft: "0.5em", paddingRight: "0.5em"}}>
+        <header className="App-header">
           <Link className="headerLink" to="/aboutme">About me</Link> 
           <p>You are on&nbsp;</p>
           <Link to="/"><code>bengordon.dev</code></Link>
