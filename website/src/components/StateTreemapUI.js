@@ -114,7 +114,7 @@ export default function StateTreemapUI(props) {
         ))}
       </svg>}
 
-      {displayState !== "Select State" && <div className="resizable" tabIndex={0} onKeyDown={(e) => handleKey(e)}>
+      {displayState !== "Select State" && <div className="resizable treemap" tabIndex={0} onKeyDown={(e) => handleKey(e)}>
         {index < states[displayState].list.length && states[displayState].list[index] /* magic */} 
         {states[displayState].list.length > 0 && <button className="treemapButton" style={styles.leftButton} onClick={() => setIndex(index > 0 ? index - 1 : index)}>←</button>}
         {states[displayState].list.length > 0 && <button className="treemapButton" style={styles.rightButton} onClick={() => setIndex(index < states[displayState].list.length - 1 ? parseInt(index) + 1 : index)}>→</button>}

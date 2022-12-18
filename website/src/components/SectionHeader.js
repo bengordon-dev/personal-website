@@ -6,7 +6,7 @@ export default function SectionHeader(props) {
     <div className={`sectionHeader ${props.open ? "openSH" : "closedSH"}`}>
       <div style={styles.topRow}>
         <h2>{props.link ? <a href={props.link}>{props.title}</a> : props.title}</h2>
-        <button style={styles.button} onClick={props.onClick}>{props.open ? "˅" : "Click to expand ˄"}</button>
+        <button style={styles.button} onClick={props.onClick}>{props.open ? "˅" : "˄"}</button>
       </div>
       <hr/>
       {props.open && props.lastUpdated && <p><i>Last Updated: {props.lastUpdated}</i></p>}
