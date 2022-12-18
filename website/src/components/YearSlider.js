@@ -1,9 +1,11 @@
+import "../App.css"
 export default function YearSlider(props) {
+  const lastYear = (props.firstYear && props.numYears) ? props.firstYear + 4*(props.numYears - 1) : 0
   return (
-    <div style={{backgroundColor: "white", paddingTop: 10, marginBottom: 10, paddingLeft: 5, paddingRight: 5, color:"black", paddingBottom: 10}}>
-      {props.firstYear}
+    <div className="yearSlider">
+      {props.firstYear && props.numYears && (props.reverse ? lastYear : props.firstYear)}
       <input 
-        type="range" style={{width: 500}} min={0} max={props.numYears - 1} step={1} value={props.index}
+        type="range" style={{width: "85%"}} min={0} max={props.numYears - 1} step={1} value={props.index}
         onChange={(e) => props.setIndex(e.target.value)}
         list="tickmarks"
       />
@@ -12,7 +14,7 @@ export default function YearSlider(props) {
         <option style={{color: "black"}} value={e} key={e}></option>
       )}
       </datalist>
-      {props.firstYear && props.numYears && props.firstYear + 4*(props.numYears - 1)}
+      {props.firstYear && props.numYears && (props.reverse ? props.firstYear : lastYear)}
     </div>
   )
 }

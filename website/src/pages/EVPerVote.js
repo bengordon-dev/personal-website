@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import EVMap from "../components/EVMap";
 import YearSlider from "../components/YearSlider";
 import { EVData } from "../data/EVData";
+import EVKey from "../components/EVKey";
 
 export default function EVPerVote() {
   const [yearIndex, setYearIndex] = useState(0)
@@ -15,8 +16,9 @@ export default function EVPerVote() {
         index={yearIndex}
         setIndex={setYearIndex}
       />
-      <a href="https://simplemaps.com/resources/svg-us">Path data from https://simplemaps.com/resources/svg-us</a>
+      <EVKey/>
       <p style={{textAlign: "center"}}>Human votes cast in a state per electoral vote cast by the state. 
+      
       {/*<br/> Different states have always been slightly over- or under-represented in the Electoral College.
       <br/>However, the gap between the highest and lowest values in this dataset also highlights the 
       <br/>historical contrast between democracy and disenfranchisement/authoritarianism in different states.

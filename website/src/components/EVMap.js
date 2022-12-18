@@ -22,10 +22,11 @@ export default function EVMap(props) {
   const [hoveredState, setHoveredState] = useState("");
   return (
     <svg
-      height="589px"
+      height="100%"
       style={{strokeLineJoin: "round", stroke: "#000", fill: "none"}}
-      width="1000px"
+      width="100%"
       id="svg"
+      viewBox="0 0 1000 589"
     >
       {statePaths && statePaths.map((state, key) => (
         <USState

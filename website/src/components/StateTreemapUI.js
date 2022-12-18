@@ -17,6 +17,7 @@ import "../App.css"
 import TreemapKey from "./TreemapKey.js"
 import USState from "./USState";
 import { statePaths } from "../data/statePaths";
+import YearSlider from "./YearSlider.js"
 
 const blankSVG = <svg width="100%" height="100%" viewBox="0 0 700 700">
   <rect x="0" y="0" height="700" width="700"></rect>
@@ -119,26 +120,18 @@ export default function StateTreemapUI(props) {
         {states[displayState].list.length > 0 && <button className="treemapButton" style={styles.leftButton} onClick={() => setIndex(index > 0 ? index - 1 : index)}>←</button>}
         {states[displayState].list.length > 0 && <button className="treemapButton" style={styles.rightButton} onClick={() => setIndex(index < states[displayState].list.length - 1 ? parseInt(index) + 1 : index)}>→</button>}
       </div>}
+    
+      <YearSlider
+        firstYear={states[displayState].firstYear} 
+        numYears={states[displayState].list.length}
+        reverse={true}
+        index={index}
+        setIndex={setIndex}
+      />
       
-
-      <div style={{backgroundColor: "white", paddingTop: 10, marginBottom: 10, paddingLeft: 5, paddingRight: 5, color:"black", paddingBottom: 10}}>
-        {states[displayState].list && states[displayState].list.length > 0 && states[displayState].firstYear + 4*(states[displayState].list.length - 1)}
-        <input 
-          type="range" style={{width: 500}} min={0} max={states[displayState].list.length - 1} step={1} value={index}
-          onChange={(e) => setIndex(e.target.value)}
-          list="tickmarks"
-        />
-        <datalist id="tickmarks">
-        {states[displayState].list.length > 0 && [...Array(states[displayState].list.length).keys()].map(e => 
-          <option style={{color: "black"}} value={e} key={e}></option>
-        )}
-        </datalist>
-        {states[displayState].list && states[displayState].list.length > 0 && states[displayState].firstYear}
-      </div>
       {displayState !== "Select State" && <TreemapKey/>}
 
     </div>
-    
   )
 }
 

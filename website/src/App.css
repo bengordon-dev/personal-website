@@ -137,6 +137,11 @@ button:active{
   width: 500px;
 }
 
+.evKey {
+  height: 100px;
+  width: 700px;
+}
+
 .resizable {
   position: relative;
   resize: both;
@@ -159,4 +164,30 @@ button:active{
 
 .closedSH {
   margin-bottom: 1em;
+}
+
+.yearSlider {
+  background-color: white;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px; 
+  color: black;
+  padding-bottom: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.electionsLink {
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 40px;
+  border-radius: 80px;
+  font-size: 20px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
