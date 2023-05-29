@@ -11,11 +11,11 @@ export default function Home() {
     <div className="page homeScreen" >
       <p>Hello! Welcome to my personal website.</p>
       <img height="316px" width="308px" src={pic} alt="mew" />
-      <p>Me, shortly before graduating high school (June 2021)</p>
+      <p style={{marginTop: ".5em"}}>Me, shortly before graduating high school (June 2021)</p>
       <a href="https://github.com/bengordon-dev">GitHub link</a>
       <br/>
       <Link to="./resume.pdf" target="_blank" download>Concise Resume</Link>
-      <br/>
+      <p>I can be contacted at <a href="mailto:ben.gordon@utexas.edu">ben.gordon@utexas.edu</a>.</p>
     </div>
   );
 }

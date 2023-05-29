@@ -6,7 +6,7 @@ function ColorRow(props) {
   return (
     <g>
       {props.color && props.color.map((col, i) => (
-        <rect x={props.x + 30*i} y={props.y} height="30" width="30" stroke="black" fill={props.color[i]}/>
+        <rect x={props.x + 30*i} y={props.y} height="30" width="30" stroke="black" fill={col}/>
       ))}
     </g>
   )
@@ -21,7 +21,7 @@ export default function EVKey(props) {
         <text x="50%" y="15" dominantBaseline="central" textAnchor="middle"  style={{fill: "black", fontSize: 14, fontWeight: "bold"}}>
           Relative power of Voter (% of national average)
         </text>
-        <ColorRow x={50} y={40} color={[...colors["PRO"].reverse(), ...colors["GOP"]]}/>
+        <ColorRow x={50} y={40} color={[...[...colors["PRO"]].reverse(), ...colors["GOP"]]}/>
         {[...Array(9).keys()].map((i) => <text 
           x={80 + 30*i} y={80} style={{fill: "black", fontSize: 13}}
           dominantBaseline="central" textAnchor="middle">

@@ -9,9 +9,11 @@ export default function Projects() {
     document.title = "Projects - Ben Gordon"
   }, []);
   const [webOpen, setWebOpen] = useState(true)
+  const [mergeOpen, setMergeOpen] = useState(false)
   const [convOpen, setConvOpen] = useState(true)
-  const [volOpen, setVolOpen] = useState(false)
+  const [bladeOpen, setBladeOpen] = useState(false)
   const [consiliaOpen, setConsiliaOpen] = useState(false)
+  const [volOpen, setVolOpen] = useState(false)
   const [hackOpen, setHackOpen] = useState(false)
 
 
@@ -23,19 +25,36 @@ export default function Projects() {
       <SectionHeader
         title="Web Projects"
         open={webOpen}
-        onClick={() => setWebOpen(!webOpen)}
+        setOpen={setWebOpen}
       />
       {webOpen && <div className="aboutMeSection">
       <ul style={styles.below}> 
         <li><Link style={{fontSize: 18, fontWeight: "bold"}} to="/projects/elections">Elections</Link></li>
-        <li>Picross (coming soon)</li>
+        <li>Mobile-responsive Picross (whenever I get around to it)</li>
       </ul>
+      </div>}
+
+      <SectionHeader
+        title="Merge (Freetail Hackers)"
+        open={mergeOpen}
+        setOpen={setMergeOpen}
+        lastUpdated={"May 2023"}
+      />
+      {mergeOpen && <div className="aboutMeSection">
+        <p><b><a href="https://gitlab.com/freetail-hackers/Merge">GitLab link</a></b></p>
+        <p>
+          As I built Merge up, it built me up. As Merge built me up, I built it up yet further. Such 
+          is the story the preeminent project of my sophomore year of college, and the largest project I have ever 
+          contributed to as of the time of writing. 
+          Working on Merge taught me not only its particular tech stack but much about programming
+          in general.
+        </p>
       </div>}
 
       <SectionHeader
         title="Convergent Projects"
         open={convOpen}
-        onClick={() => setConvOpen(!convOpen)}
+        setOpen={setConvOpen}
       />
       {convOpen && <div className="aboutMeSection">
         <p>
@@ -45,21 +64,40 @@ export default function Projects() {
         </p>
         <p>
           <a href="https://github.com/bengordon-dev/fa22-sustainability-water">Launder</a> was my project in Fall 2022.
+
         </p>
         <p>
           <a href="https://github.com/bengordon-dev/sp22-iot-disability/">ForeSense</a> was my project in Spring 2022.
+          It prepared me well for being an IoT lead later on.
         </p>
       </div>}
-      
+
+      <SectionHeader
+        title="NeonBlader (RowdyHacks 2023)"
+        open={bladeOpen}
+        setOpen={setBladeOpen}
+      />
+      {bladeOpen && <div className="aboutMeSection">
+        <p style={styles.below}>
+          <b><a href="https://github.com/DinDin23/RowdyHacks2023">GitHub Link</a></b><br/>
+          My three wonderful teammates and I achieved quite a lot in our 24 hours at RowdyHacks, making a silly 
+          little rollerskating-themed online multiplayer racing game.
+          Our tech stack was React, React Three Fiber (written on top of Three.js) for graphics, 
+          Socket.io for real-time communication, MongoDB to store account information (only half-done), and Google Cloud
+          (again, only half-done) to host our app.
+        </p>
+      </div>
+      }
+
       <SectionHeader
         title="Consilia (HackTX 2021)"
         open={consiliaOpen}
-        onClick={() => setConsiliaOpen(!consiliaOpen)}
+        setOpen={setConsiliaOpen}
         lastUpdated={"January 2022"}
       />
       {consiliaOpen && <div className="aboutMeSection">
         <p style={styles.below}>
-          <b> <a href="https://github.com/consilia-proj/consilia-mobile-app">GitHub Link</a></b><br/>
+          <b><a href="https://github.com/consilia-proj/consilia-mobile-app">GitHub Link</a></b><br/>
           HackTX 2021 (on October 30th-31st) was, for me, the very satisfying culmination of a lot of recent learning! 
           The time I spent throughout 2021 writing React Native code paid off majorly, as did the extracurricular endeavors of my fall semester. 
           <br/>
@@ -73,7 +111,7 @@ export default function Projects() {
       <SectionHeader
         title="Volunity (2021)"
         open={volOpen}
-        onClick={() => setVolOpen(!volOpen)}
+        setOpen={setVolOpen}
         link={"https://github.com/bengordon-dev/volunity-archive"}
         id="Volunity"
         lastUpdated="January 2022"
@@ -105,7 +143,7 @@ export default function Projects() {
       <SectionHeader
         title="Minor Hackathon Projects"
         open={hackOpen}
-        onClick={() => setHackOpen(!hackOpen)}
+        setOpen={setHackOpen}
       />
       {hackOpen && <div className="aboutMeSection">
         <p>

@@ -8,7 +8,6 @@ export default function AboutMe() {
   }, []);
   const [eduOpen, setEduOpen] = useState(false)
   const [earlyOpen, setEarlyOpen] = useState(true)
-  const [progOpen, setProgOpen] = useState(true)
   const [passionOpen, setPassionOpen] = useState(true)
 
   return (
@@ -18,7 +17,7 @@ export default function AboutMe() {
     <SectionHeader
       title="Early Life"
       open={earlyOpen}
-      onClick={() => setEarlyOpen(!earlyOpen)}
+      setOpen={setEarlyOpen}
     />
     {earlyOpen && <div className="aboutMeSection">
       <p>
@@ -35,21 +34,23 @@ export default function AboutMe() {
     <SectionHeader
       title="College"
       open={eduOpen}
-      onClick={() => setEduOpen(!eduOpen)}
+      setOpen={setEduOpen}
     />
     {eduOpen && <div className="aboutMeSection">
-      <p>I am a second-year Computer Science major at the <a href="https://www.utexas.edu/">University of Texas</a> at 
+      <p>I am a rising third-year Computer Science major at the <a href="https://www.utexas.edu/">University of Texas</a> at 
         Austin. Here is a semester-by-semester rundown of my college experience:
       </p>
 
       <p>
-        <b>Spring 2023</b> (15 hours)<br/>
-        CS classes: Algorithms and Complexity, Object-Oriented Programming
+        <b>Spring 2023</b> (12 hours)<br/>
+        Cool classes: Organic Chemistry I, Object-Oriented Programming<br/>
+        Clubs: Texas Convergent (now as an officer), Freetail Hackers<br/>
+        Other passions: lifting, table tennis, cooking
       </p>
 
       <p>
         <b>Fall 2022</b> (14 hours)<br/>
-        By far my most difficult semester so far.<br/>
+        By far my hardest semester so far. OS was just as difficult as advertised!<br/>
         Notable classes: Operating Systems<br/>
         Clubs: Freetail Hackers, Texas Convergent<br/>
         Other preoccupations: recruiting
@@ -82,7 +83,7 @@ export default function AboutMe() {
     <SectionHeader
       title="Persistent Passions"
       open={passionOpen}
-      onClick={() => setPassionOpen(!passionOpen)}
+      setOpen={setPassionOpen}
     />
     {passionOpen && <div className="aboutMeSection">
       <p>I greatly enjoy table tennis. While I had a table at home growing up, I never truly loved

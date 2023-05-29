@@ -1,17 +1,17 @@
 body {
   margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-  font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-smoothing :antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 code {
-  font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace
+  font-family :source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace
 }
 body {
-  background-color:#282c34;
+  background-color: #282c34;
 }
 .App {
-  flex-direction:column;
+  flex-direction: column;
 }
 
 #hexGrid {
@@ -27,92 +27,125 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   min-height: 100vh;
 }
 
 
-.App,.App-header{
-  display:flex;
-  color:#fff;
-  align-items:center;
+.App, .App-header {
+  display: flex;
+  color: #fff;
+  align-items: center;
 }
-.App-header{
-  flex-direction:row;
-  justify-content:center;
+.App-header {
+  flex-direction: row;
+  justify-content: center;
 }
 
 .page, .App-header, .aboutMeScreen {
-  width:70%;
   padding-left: 1em;
   padding-right: 1em;
   background-color:rgba(40,44,52, .8);
 }
 
-.App-header a{
-  text-decoration:none
+@media all and (orientation:landscape) {
+  .page, .App-header, .aboutMeScreen {
+    width:70%;
+  }
+
+  .electionsLink {
+    width: 15%;
+  }
 }
+
+@media all and (orientation:portrait) {
+  .page, .App-header, .aboutMeScreen {
+    width:90%;
+  }
+
+  .electionsLink {
+    width: 30%;
+  }
+}
+
+.App-header a {
+  text-decoration: none
+}
+
 a {
   color:#fff
 }
+
 .headerLink {
-  margin-left:20px;
-  margin-right:20px
+  margin-left: 20px;
+  margin-right: 20px
 }
+
 a:hover,.headerLink:hover {
   opacity: 0.9
 }
 a:active, .headerLink:active {
   opacity: 0.6
 }
+
 .App-header button,p {
-  border:none;
-  color:#fff;
-  font-size:16px;
-  padding:0
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 0
 }
+
 button:hover{
-  opacity:.7
+  opacity: .7
 }
+
 button:active{
-  opacity:.3
+  opacity: .3
 }
+
 .aboutMeScreen{
-  justify-content:flex-start;
+  justify-content: flex-start;
   min-height: 100vh;
 }
-.aboutMeScreen,.aboutMeSection {
+
+.aboutMeScreen, .aboutMeSection {
   display: flex;
   flex-direction: column
 }
+
 .aboutMeSection { 
   align-items: flex-start;
   margin-bottom: 1.5em;
 }
+
 .aboutMeScreen *, .noMarginBlock *, .page *  {
-  margin-block-start:0;
+  margin-block-start: 0;
   margin-block-end: 0
 }
+
 .aboutMeSection p, .homeScreen p {
   margin-bottom: 1.5em;
 }
+
 .homeScreen p {
   margin-top: 1em
 }
 
 .aboutMeScreen p,li,ul{
-  text-align:left;
-  line-height:1.25em;
+  text-align: left;
+  line-height: 1.25em;
 }
-.schoolTitle{
-  font-weight:700;
-  margin-block-end:.2em;
-  font-size:18px
+
+.schoolTitle {
+  font-weight: 700;
+  margin-block-end: .2em;
+  font-size: 18px
 }
+
 .aboutMeScreen hr{
-  width:98%;
-  margin-inline:0;
-  opacity:.3
+  width: 98%;
+  margin-inline: 0;
+  opacity: .3
 }
 
 
@@ -186,8 +219,16 @@ button:active{
   padding: 40px;
   border-radius: 80px;
   font-size: 20px;
-  width: 15%;
   display: flex;
   align-items: center;
   justify-content: center
+}
+
+.buttonSH {
+  margin-left: auto;
+  margin-right: 1em;
+  border: none;
+  background-color: rgba(40,44,52, 0);
+  color: white;
+  font-size: 18px;
 }
