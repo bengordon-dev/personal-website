@@ -8,6 +8,7 @@ import Elections from './pages/Elections'
 import AboutMe from './pages/AboutMe';
 import Treemaps from './pages/Treemaps';
 import EVPerVote from './pages/EVPerVote';
+import Picross from './pages/Picross';
 
 
 function pointCoords(index, number) { // number on [0, 5], index is a property of the hexagon
@@ -35,6 +36,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/projects/picross" element={<Picross/>}/>
           <Route path="/projects/elections" element={<Elections/>}/>
           <Route path="/projects/elections/treemaps" element={<Treemaps/>}/>
           <Route path="/projects/elections/evpervote" element={<EVPerVote/>}/>

@@ -1,0 +1,177 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.topBar {
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar .flexCol {
+  align-items: center;
+}
+
+.Picross h5, .Picross p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+
+.center {
+  width: 100%;
+  justify-content: center;
+  max-height: calc(var(--vh, 1vh) * 55);
+}
+
+
+.centerCenter {
+  justify-content: center;
+  align-items: center;
+}
+
+.boxButtons {
+  width: 10%;
+  height: 100%
+}
+
+.boxButtons button {
+  width: 90%;
+  aspect-ratio: 1/1;
+  margin: 1px 0;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding: none;
+}
+
+#mainBox {
+  display: grid;
+  grid-template-columns: repeat(var(--width), var(--boxSize));
+  grid-template-rows: repeat(var(--height), var(--boxSize));
+  overflow: scroll;
+  width: 80%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.item {
+  background-color: white;
+  display: flex;
+  font-size: calc(var(--boxSize) / 2);
+  color: #900
+}
+
+.notBottomEdge {
+  border-bottom: 1px solid #ddd;
+}
+
+.cellBottomEdge {
+  border-bottom: 1px solid black;
+}
+
+
+.cellRightEdge {
+  border-right: 1px solid black;
+}
+
+.notRightEdge {
+  border-right: 1px solid #ddd;
+}
+
+.blue {
+  background-color: cyan;
+}
+
+.gray {
+  background-color: #ccc;
+}
+
+.highlighted {
+  background-color:  rgba(255, 200, 0, 0.1)
+}
+
+.focused {
+  box-shadow: 0 0 calc(var(--boxSize) / 4) calc(var(--boxSize) / 15) orange inset;
+}
+
+.rowNumbers {
+  height: calc(var(--vh, 1vh) * 15);
+  overflow: scroll;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#colNumbers {
+  display: grid;
+  grid-template-columns: repeat(25, var(--boxSize));
+  grid-template-rows: auto;
+  width: 80vw;
+  overflow-x: scroll;
+  /*min-height: 100px;*/
+}
+
+.numberCol {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.Picross {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
+  background-color: white;
+}
+
+#boxCols {
+  width: 100%;
+  max-height: calc(var(--vh, 1vh) * 80);
+  overflow: hidden;
+  align-items: center;
+}
+
+.modeHighlighted {
+  box-shadow: 0 0 15px 3px orange inset;
+}
+
+.settings {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Picross .topBar *, .groupNum, .rowNumbers, .settings *, .calcPopup *, .acknowledgement * {
+  color: black;
+}
+
+.crossedOut {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.calcPopup {
+  position: fixed;
+  top: calc(50% - (var(--vh, 1vh) * 15));
+  left: calc(50% - 40vw);
+  background-color: white;
+  height: calc(var(--vh, 1vh) * 30);
+  width: 80vw;
+}
+
+.acknowledgement {
+  text-align: center;
+  margin-top: 1em;
+}

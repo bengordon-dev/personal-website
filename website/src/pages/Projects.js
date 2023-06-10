@@ -30,7 +30,7 @@ export default function Projects() {
       {webOpen && <div className="aboutMeSection">
       <ul style={styles.below}> 
         <li><Link style={{fontSize: 18, fontWeight: "bold"}} to="/projects/elections">Elections</Link></li>
-        <li>Mobile-responsive Picross (whenever I get around to it)</li>
+        <li><Link style={{fontSize: 18, fontWeight: "bold"}} to="/projects/picross">Mobile-phone Picross</Link></li>
       </ul>
       </div>}
 
