@@ -9,7 +9,7 @@ export default function Projects() {
     document.title = "Projects - Ben Gordon"
   }, []);
   const [webOpen, setWebOpen] = useState(true)
-  const [mergeOpen, setMergeOpen] = useState(false)
+  const [mergeOpen, setMergeOpen] = useState(true)
   const [convOpen, setConvOpen] = useState(true)
   const [bladeOpen, setBladeOpen] = useState(false)
   const [consiliaOpen, setConsiliaOpen] = useState(false)
@@ -38,16 +38,18 @@ export default function Projects() {
         title="Merge (Freetail Hackers)"
         open={mergeOpen}
         setOpen={setMergeOpen}
-        lastUpdated={"May 2023"}
+        lastUpdated={"August 2023"}
       />
       {mergeOpen && <div className="aboutMeSection">
         <p><b><a href="https://gitlab.com/freetail-hackers/Merge">GitLab link</a></b></p>
         <p>
-          As I built Merge up, it built me up. As Merge built me up, I built it up yet further. Such 
-          is the story the preeminent project of my sophomore year of college, and the largest project I have ever 
-          contributed to as of the time of writing. 
-          Working on Merge taught me not only its particular tech stack but much about programming
-          in general.
+          As I built Merge up, it built me up, and as Merge built me up, I built it up yet further. I improved a lot
+          as a web developer and programmer in my sophomore year of college, and working on Merge did at least as much for
+          me as any class did.
+          I wrote and rewrote much of the codebase, learning a ton about the particular
+          tech stack (React, WebSockets, and MongoDB) and how to really use Git to work with others. I was 
+          very well prepared for my internship this summer as a result.
+          I will be leading development of the app in the run-up to our launch at HackTX 2023!
         </p>
       </div>}
 
@@ -64,7 +66,6 @@ export default function Projects() {
         </p>
         <p>
           <a href="https://github.com/bengordon-dev/fa22-sustainability-water">Launder</a> was my project in Fall 2022.
-
         </p>
         <p>
           <a href="https://github.com/bengordon-dev/sp22-iot-disability/">ForeSense</a> was my project in Spring 2022.

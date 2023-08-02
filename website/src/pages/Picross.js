@@ -315,7 +315,10 @@ function Picross() {
         )}</div>
         <button onClick={() => setCalcPopup(false)}>Close Popup</button>
       </div>}
-      <div className='acknowledgement'><p>Heavily inspired by Henry Liou. Play <a href="http://liouh.com/picross/">his version</a> instead if on a computer!</p></div>
+      <div className='acknowledgement'>
+        <p>Heavily inspired by Henry Liou. Play <a href="http://liouh.com/picross/">his version</a> instead if on a computer!</p>
+        <p><a href="https://github.com/bengordon-dev/personal-website/blob/master/website/src/pages/Picross.js">Source Code</a></p>
+      </div>
 
       
       </>
