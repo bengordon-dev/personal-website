@@ -1,5 +1,5 @@
 import './Picross.css';
-import {useState, useEffect, useCallback} from "react";
+import {useState, useEffect} from "react";
 
 function Picross(props) {
   const [board, setBoard] = useState([])
@@ -8,7 +8,6 @@ function Picross(props) {
   const [squareSize, setSquareSize] = useState(20)
   const [row, setRow] = useState(-1)
   const [col, setCol] = useState(-1)
-  const [startSquare, setStartSquare] = useState(-1)
   const [rowNums, setRowNums] = useState([])
   const [colNums, setColNums] = useState([])
   const [mistakes, setMistakes] = useState(0)
@@ -31,15 +30,6 @@ function Picross(props) {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
     setSquareSize(document.getElementById('mainBox').clientWidth/15)
-    function handleKeyUp(event) {
-      if (event.key === 'c') {
-        setCalcPopup(prev => !prev)
-      }
-    }
-    document.onkeyup = handleKeyUp
-    return () => {
-      document.onkeyup = null
-    }
   }, [])
 
   useEffect(() => {
@@ -51,19 +41,29 @@ function Picross(props) {
   useEffect(() => {
     if (!settings) {
       let colNums = document.getElementById('colNumbers')
-      let rowNums = document.getElementById('rowNumbers')
       let mainBox = document.getElementById('mainBox')
       mainBox.onscroll = () => {
         colNums.scrollLeft = mainBox.scrollLeft
-        if (props.isDesktop) {
-          rowNums.scrollTop = mainBox.scrollTop
-        }
       }
     }
 
-  }, [settings, props.isDesktop])
+  }, [settings])
 
-  function initialRowNums(newHeight, newWidth, newBoard) {
+  function newGame() {
+    //setSquareSize(20)
+    const newHeight = parseInt(heightInput)
+    const newWidth = parseInt(widthInput)
+
+
+    let newBoard = []
+    let newClicks = []
+    let blueCount = 0
+    for (let i = 0; i < newHeight*newWidth; i++) {
+      let num = Math.floor(Math.random()*2)
+      blueCount += num
+      newBoard.push(num)
+      newClicks.push(false)
+    }
     let newRowNums = []
     for (let i = 0; i < newHeight; i++) {
       let row = []
@@ -82,10 +82,6 @@ function Picross(props) {
       }
       newRowNums.push(row)
     }
-    return newRowNums
-  }
-
-  function initialColNums(newHeight, newWidth, newBoard) {
     let newColNums = []
     for (let j = 0; j < newWidth; j++) {
       let col = []
@@ -104,49 +100,17 @@ function Picross(props) {
       }
       newColNums.push(col)
     }
-    return newColNums
-  }
-
-  function resetValues(newHeight, newWidth) {
-    setBluesClicked(0)
-    setMistakes(0)
-    setHeight(newHeight)
-    setWidth(newWidth)
-    setStartSquare(-1)
-    setMode("blue")
-  }
-
-  const newGame = useCallback((newHeight, newWidth) => {
-    let newBoard = []
-    let newClicks = []
-    let blueCount = 0
-    for (let i = 0; i < newHeight*newWidth; i++) {
-      let num = Math.floor(Math.random()*2)
-      blueCount += num
-      newBoard.push(num)
-      newClicks.push(false)
-    }
-    let newRowNums = initialRowNums(newHeight, newWidth, newBoard)
-    let newColNums = initialColNums(newHeight, newWidth, newBoard)
-    
     setBoard(newBoard)
     setClicks(newClicks)
     setRowNums(newRowNums)
     setColNums(newColNums)
     setRowCrossouts([...newRowNums.map(e => [-1, e.length])])
     setColCrossouts([...newColNums.map(e => [-1, e.length])])
+    setHeight(newHeight)
+    setWidth(newWidth)
     setBlues(blueCount)
-  }, [])
-
-  useEffect(() => {
-    newGame(15, 15)
-  }, [newGame])
-
-  function newGameButton() {
-    const newHeight = parseInt(heightInput)
-    const newWidth = parseInt(widthInput)
-    newGame(newHeight, newWidth)
-    resetValues(newHeight, newWidth)
+    setBluesClicked(0)
+    setMistakes(0)
   }
 
 
@@ -154,58 +118,28 @@ function Picross(props) {
     return `${square % width < width - 1 ? ((square % width) % 5 === 4 ? " cellRightEdge" : " notRightEdge") : ""}${square < (width*height) - width ? (Math.floor(square/width) % 5 === 4 ? " cellBottomEdge" : " notBottomEdge") : ""}`
   }
 
-  function clickOnSquare(square, right=false) {
-    if (!clicks[square]) {
-      let trueMode = right ? (mode === 'gray' ? 'blue' : 'gray') : mode
-      setLastMove({square, trueMode})
+  function click(square) {
+    if (calcPopup) return;
+    setRow(Math.floor(square / width))
+    setCol(square % width)
+    const rows = document.getElementById('rowNumbers')
+    rows.scrollTop = rows.scrollHeight * Math.max(0, Math.floor(square / width) - 2) / height;
+    let colNums = document.getElementById('colNumbers')
+    let mainBox = document.getElementById('mainBox')
+    colNums.scrollLeft = mainBox.scrollLeft
+    if (mode !== "browse" && !clicks[square]) {
+      setLastMove({square, mode})
       setClicks(prev => {
-        const newClicks = [...prev.slice(0, square), trueMode, ...prev.slice(square + 1)]
+        const newClicks = [...prev.slice(0, square), mode, ...prev.slice(square + 1)]
         updateCrossouts(square, newClicks)
         return newClicks
       })
-      if ((trueMode === "gray" && board[square] === 1) || (trueMode === "blue" && board[square] === 0)) {
+      if ((mode === "gray" && board[square] === 1) || (mode === "blue" && board[square] === 0)) {
         setMistakes(prev => prev + 1)
       }
       if (board[square] === 1) {
         setBluesClicked(prev => prev + 1)
       }
-    }
-  }
-
-  function click(square, right=false) {
-    if (calcPopup) return;
-    //setRow(Math.floor(square / width))
-    //setCol(square % width)
-    if (!props.isDesktop) {
-      const rows = document.getElementById('rowNumbers')
-      rows.scrollTop = rows.scrollHeight * Math.max(0, Math.floor(square / width) - 2) / height;
-    }
-
-    let colNums = document.getElementById('colNumbers')
-    let mainBox = document.getElementById('mainBox')
-    colNums.scrollLeft = mainBox.scrollLeft
-    if (mode === "browse") return;
-    if (square === startSquare || startSquare === -1) {
-      clickOnSquare(square, right)
-      return
-    }
-
-    let endX = square % width;
-    let endY = Math.floor(square / width);
-    let startX = startSquare % width;
-    let startY = Math.floor(startSquare / width);
-    if (Math.abs(endX - startX) >= Math.abs(endY - startY)) { // horizontal
-      let start = endX < startX ? endX : startX;
-      let stop = endX < startX ? startX : endX;
-      for (let j = start; j <= stop; j++) {
-        clickOnSquare(width * startY + j, right);
-      } 
-    } else { // vertical
-      let start = endY < startY ? endY : startY;
-      let stop = endY < startY ? startY : endY;
-      for (let i = start; i <= stop; i++) {
-        clickOnSquare(width * i + startX, right);
-      } 
     }
   }
 
@@ -267,7 +201,7 @@ function Picross(props) {
     if (board.length < width*height || clicks.length < width*height) return ""
     let highlighted = (col === square % width) || (row === Math.floor(square / width))
     let focused = (col === square % width) && (row === Math.floor(square / width))
-    if (!clicks[square]) return focused || startSquare === square ? " focused" : highlighted ?  " highlighted" : ""
+    if (!clicks[square]) return focused ? " focused" : highlighted ?  " highlighted" : ""
     let color = board[square] === 1 ? " blue" : " gray"
     let shadow = focused ? " focused" : ""
     return `${color}${shadow}`
@@ -337,7 +271,7 @@ function Picross(props) {
     <button onClick={() => setCalcPopup(false)}>Close Popup</button>
   </div>
   
-  const buttonBox = <div className={`boxButtons left ${props.isDesktop ? "flexRow" : "flexCol"}`}>
+  const buttonBox = <div className={`boxButtons left ${props.isDesktop ? "flexRow" : "flexCol"} centerCenter`}>
     <ModeButton myMode="blue" backgroundColor="cyan"/>
     <ModeButton myMode="gray" backgroundColor="#ccc"/>
     <ModeButton myMode="browse" backgroundColor="#0f0"/>
@@ -357,18 +291,11 @@ function Picross(props) {
     </button>}
   </div>
 
-  const rightButtonBox = <div className="boxButtons right flexCol">
-    <button onClick={zoomIn}>+</button>
-    <button onClick={zoomOut}>-</button>
-    <button onClick={zoomFitWidth}>W</button>
-  </div>
-
   const rowNumbers = <div id="rowNumbers" className="rowNumbers flexCol">
-    {rowNums && rowNums.map((e, i) => <div onClick={() => rowClick(i)} key={i} className={`flexRow rowNumber ${row === i ? "highlighted" : ""}`}>
+    {rowNums && rowNums.map((e, i) => <div onClick={() => rowClick(i)} key={i} className={`flexRow ${row === i ? "highlighted" : ""}`}>
       {e.length === 0 ? "None" : e.map((num, j) => <p key={j} className={`groupNum${j <= rowCrossouts[i][0] || j >= rowCrossouts[i][1] ? " crossedOut" : ""}`}>&nbsp;{num}&nbsp;</p>)}
     </div>)}
   </div>
-
 
   return (
     <div className="Picross">
@@ -384,51 +311,37 @@ function Picross(props) {
           <p>{mistakes}</p>
         </div> 
         <p onClick={() => setSettings(true)}>Settings</p>
-        <button onClick={newGameButton}>New Game</button>
+        <button onClick={newGame}>New Game</button>
       </div>
-      <div id="gameControls">
+      <div id="boxCols" className='flexCol'>
         <div id="colNumbers">
           {colNums && colNums.map((e, i) => <div key={i} onClick={() => clickColumn(i)}
             className={`flexCol numberCol ${col === i ? "highlighted" : ""}`}>
             {e.map((num, j) => <p className={`groupNum${j <= colCrossouts[i][0] || j >= colCrossouts[i][1] ? " crossedOut" : ""}`} key={j}>{num}</p>)}
           </div>)}
         </div>
-        {buttonBox}
-        <div id="mainBox">
-          {board.length === width*height && [...Array(width*height).keys()].map((e) => <div 
-            key={e} 
-            className={`item centerCenter${borderClasses(e)}${colorClass(e)}`}
-            onMouseUp={(event) => {
-              click(e, event.button === 2)
-            }}
-            onContextMenu={(event) => {
-              event.preventDefault()
-              return false;
-            }}
-            onMouseEnter={() => {
-              setRow(Math.floor(e / width))
-              setCol(e % width)
-            }}
-            onMouseDown={() => setStartSquare(e)}
-            onMouseLeave={() => {
-              //setRow(-1)
-              //setCol(-1)
-            }}
-            onTouchStart={() => {
-              setRow(Math.floor(e / width))
-              setCol(e % width)
-            }}
-            onTouchEnd={() => {
-              click(e, false)
-              setStartSquare(-1)
-            }}
-          >{squareText(e)}</div>
-            )}
+        <div className="center flexRow">
+          {!props.isDesktop && buttonBox}
+          {props.isDesktop && rowNumbers}
+          <div id="mainBox">
+            {board.length === width*height && [...Array(width*height).keys()].map((e) => <div 
+              key={e} 
+              className={`item centerCenter${borderClasses(e)}${colorClass(e)}`}
+              onClick={() => click(e)}
+            >{squareText(e)}</div>
+              )}
+          
+          </div>
+          <div className="boxButtons right flexCol centerCenter">
+            <button onClick={zoomIn}>+</button>
+            <button onClick={zoomOut}>-</button>
+            <button onClick={zoomFitWidth}>W</button>
+          </div>
         </div>
-        {rightButtonBox}
-        {rowNumbers}
       </div>
-      {calcPopup && row !== -1 && col !== 1 && <CalcPopup/>}
+      {props.isDesktop && buttonBox}
+      {!props.isDesktop && rowNumbers}
+      {calcPopup && <CalcPopup/>}
       <div className='acknowledgement'>
         <p>Heavily inspired by Henry Liou. Play <a href="http://liouh.com/picross/">his version</a> instead if on a computer!</p>
         <p><a href="https://github.com/bengordon-dev/personal-website/blob/master/website/src/pages/Picross.js">Source Code</a></p>

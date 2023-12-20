@@ -1,12 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import '../App.css';
 import { Link } from "react-router-dom";
 import pic from '../images/pic.jpg';
 
 export default function Home() {
-  useEffect(() => {
-    document.title = "Ben Gordon"
-  }, []);
   return (
     <div className="page homeScreen" >
       <p>Hello! Welcome to my personal website.</p>

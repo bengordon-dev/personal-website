@@ -38,18 +38,31 @@ export default function Projects() {
         title="Merge (Freetail Hackers)"
         open={mergeOpen}
         setOpen={setMergeOpen}
-        lastUpdated={"August 2023"}
+        lastUpdated={"December 2023"}
       />
       {mergeOpen && <div className="aboutMeSection">
         <p><b><a href="https://gitlab.com/freetail-hackers/Merge">GitLab link</a></b></p>
         <p>
-          As I built Merge up, it built me up, and as Merge built me up, I built it up yet further. I improved a lot
+          Merge is, as of December 2023, by far the largest project I have ever worked on. A
+          conservative estimate would put it at 6000 lines for the frontend and 2000 for the backend. 
+        </p>
+        <p>
+          I joined Freetail Hackers in June of 2022, and worked on the same project until leaving 
+          following HackTX 2023. 
+          I was quite clueless when first working on the project, but a virtuous cycle emerged; as I built Merge up, it built me up as a programmer, 
+          allowing me to build Merge up further. I improved a lot
           as a web developer and programmer in my sophomore year of college, and working on Merge did at least as much for
           me as any class did.
           I wrote and rewrote much of the codebase, learning a ton about the particular
           tech stack (React, WebSockets, and MongoDB) and how to really use Git to work with others. I was 
-          very well prepared for my internship this summer as a result.
-          I will be leading development of the app in the run-up to our launch at HackTX 2023!
+          very well prepared for my internship in summer 2022 as a result.
+        </p>
+        <p>
+         I led development of the app in the run-up to its launch at HackTX 2023. 
+         It appears that Merge was ultimately unsuccessful, having 138 users but 135 teams in its database;
+         barely anyone formed teams in the app. Several things were missing, most prominently
+         e-mail notifications.
+
         </p>
       </div>}
 

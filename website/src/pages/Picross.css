@@ -23,6 +23,95 @@
   margin-block-start: 0;
 }
 
+#gameControls {
+  display: grid;
+}
+
+#colNumbers {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+@media all and (orientation:landscape) {
+  #gameControls {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+  #mainBox {
+    grid-column: 2;
+    grid-row: 2;
+    height: calc(min(var(--height) * var(--boxSize), var(--vh, 1vh) * 65));
+  }
+  .boxButtons.left {
+    grid-column: 2;
+    grid-row: 3;
+    height: 50px;
+  }
+  .boxButtons.right {
+    grid-column: 3;
+    grid-row: 2;
+    width: 50px;
+  }
+  #rowNumbers {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(var(--height), var(--boxSize));
+    overflow-y: scroll;
+    height: calc(min(var(--height) * var(--boxSize), var(--vh, 1vh) * 65));
+    margin-right: 5px;
+  }
+  .rowNumber {
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .boxButtons.left button {
+    height: 90%;
+  }
+  .boxButtons.right button {
+    width: 90%;
+  }
+
+}
+
+@media all and (orientation:portrait) {
+  #gameControls {
+    grid-template-columns: 10vw calc(min(var(--width) * var(--boxSize), 80vw)) 10vw;
+    grid-template-rows: auto auto calc(var(--vh, 1vh) * 15);
+    width: calc(20vw + min(var(--width) * var(--boxSize), 80vw));;
+  }
+  #mainBox {
+    grid-column: 2;
+    grid-row: 2;
+    height: calc(min(var(--height, 15) * var(--boxSize, 20px), var(--vh, 1vh) * 55));
+  }
+  .boxButtons.left {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .boxButtons.right {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  #rowNumbers {
+    grid-column: 2;
+    grid-row: 3;
+    height: calc(var(--vh, 1vh) * 15);
+    margin-top: 5px;
+    overflow: scroll;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .boxButtons {
+    width: 10vw;
+    max-height: calc(var(--vh, 1vh) * 55);
+  }
+  .boxButtons button {
+    width: 90%;
+  }
+}
+
 
 .center {
   width: 100%;
@@ -31,35 +120,39 @@
 }
 
 
-.centerCenter {
+
+.centerCenter, .boxButtons {
   justify-content: center;
   align-items: center;
 }
 
-.boxButtons {
-  width: 10%;
-  height: 100%
-}
 
 .boxButtons button {
-  width: 90%;
   aspect-ratio: 1/1;
   margin: 1px 0;
   border: none;
   font-size: 12px;
   font-weight: bold;
   color: black;
-  padding: none;
+  padding: 0;
 }
 
 #mainBox {
   display: grid;
-  grid-template-columns: repeat(var(--width), var(--boxSize));
-  grid-template-rows: repeat(var(--height), var(--boxSize));
+  grid-template-columns: repeat(var(--width, 15), var(--boxSize, 20px));
+  grid-template-rows: repeat(var(--height, 15), var(--boxSize, 20px));
   overflow: scroll;
-  width: 80%;
-  height: 100%;
+  width: calc(min(var(--width, 15) * var(--boxSize, 20px), 80vw));
   border: 1px solid gray;
+}
+
+#colNumbers {
+  display: grid;
+  grid-template-columns: repeat(var(--width), var(--boxSize));
+  grid-template-rows: repeat(1, auto);
+  margin-bottom: 5px;
+  width: calc(min(var(--width) * var(--boxSize), 80vw));
+  overflow-x: scroll;
 }
 
 .item {
@@ -102,26 +195,12 @@
   box-shadow: 0 0 calc(var(--boxSize) / 4) calc(var(--boxSize) / 15) orange inset;
 }
 
-.rowNumbers {
-  height: calc(var(--vh, 1vh) * 15);
-  overflow: scroll;
-  align-items: center;
-  justify-content: flex-start;
-}
 
-#colNumbers {
-  display: grid;
-  grid-template-columns: repeat(25, var(--boxSize));
-  grid-template-rows: auto;
-  width: 80vw;
-  overflow-x: scroll;
-  /*min-height: 100px;*/
-}
+
 
 .numberCol {
   padding-left: 10px;
   padding-right: 10px;
-  height: 100%;
   justify-content: flex-start;
   align-items: center;
 
@@ -132,7 +211,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
   background-color: white;
 }
