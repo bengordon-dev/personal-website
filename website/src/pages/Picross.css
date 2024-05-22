@@ -1,3 +1,7 @@
+:root {
+  --win-gif: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif)
+}
+
 .flexRow {
   display: flex;
   flex-direction: row;
@@ -73,11 +77,15 @@
     width: 90%;
   }
 
+  .settings {
+    padding: 0.5em 15vw;
+  }
+
 }
 
 @media all and (orientation:portrait) {
   #gameControls {
-    grid-template-columns: 10vw calc(min(var(--width) * var(--boxSize), 80vw)) 10vw;
+    grid-template-columns: calc(10vw - 1px) calc(min(var(--width) * var(--boxSize), 80vw) + 2px) calc(10vw - 1px);
     grid-template-rows: auto auto calc(var(--vh, 1vh) * 15);
     width: calc(20vw + min(var(--width) * var(--boxSize), 80vw));;
   }
@@ -104,12 +112,16 @@
     justify-content: flex-start;
   }
   .boxButtons {
-    width: 10vw;
+    width: calc(10vw - 1px);
     max-height: calc(var(--vh, 1vh) * 55);
   }
   .boxButtons button {
     width: 90%;
   }
+  .settings {
+    padding: 0.5em 1em;
+  }
+
 }
 
 
@@ -187,6 +199,11 @@
   background-color: #ccc;
 }
 
+.winGif {
+  background-image: var(--win-gif);
+  background-size: contain;
+}
+
 .highlighted {
   background-color:  rgba(255, 200, 0, 0.1)
 }
@@ -232,6 +249,10 @@
   justify-content: flex-start;
 }
 
+.settings p {
+  margin-bottom: 1em;
+}
+
 .Picross .topBar *, .groupNum, .rowNumbers, .settings *, .calcPopup *, .acknowledgement * {
   color: black;
 }
@@ -245,7 +266,7 @@
   position: fixed;
   top: calc(50% - (var(--vh, 1vh) * 15));
   left: calc(50% - 40vw);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   height: calc(var(--vh, 1vh) * 30);
   width: 80vw;
 }
@@ -253,4 +274,14 @@
 .acknowledgement {
   text-align: center;
   margin-top: 1em;
+}
+
+.newGameButton {
+  border: none;
+  border-radius: 20px;
+  padding: 3px 6px;
+}
+
+.settings .flexRow label {
+  margin-right: 10px;
 }
