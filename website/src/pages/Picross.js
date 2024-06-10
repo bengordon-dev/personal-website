@@ -620,7 +620,7 @@ function Picross(props) {
     <ModeButton myMode="blue" backgroundColor="cyan"/>
     <ModeButton myMode="gray" backgroundColor="#ccc"/>
     {!props.isDesktop && <ModeButton myMode="browse" backgroundColor="#0f0"/>}
-    {props.isDesktop && <button 
+    {<button 
       style={{backgroundColor: "#09f"}} 
       onClick={toggleMarkerMode}
       className={markerMode ? "modeHighlighted" : ""}
