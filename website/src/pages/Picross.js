@@ -56,19 +56,19 @@ function SettingsBox(props) {
         <label>Width</label>
         <input id="widthInput" type="text" placeholder='width' value={widthInput} onChange={(e) => setWidthInput(e.target.value)}/>
       </div>
-      <p>{base64Board}</p>
+      <p id="boardSeed">{base64Board}</p>
       <div className='flexRow centerCenter' style={{marginBottom: "1em"}}>
         <label>Board seed input</label>
         <input value={seedInput} onChange={(e) => setSeedInput(e.target.value)} style={{marginRight: "1em"}}/>
         <button className="newGameButton" onClick={() => newGameButton(heightInput, widthInput, seedGameSave)}>New Game</button>
       </div>
 
-      <div className='flexRow centerCenter'>
+      {/*<div className='flexRow centerCenter'>
         <label>Win GIF url</label>
         <input value={gifInput} onChange={(e) => setGifInput(e.target.value)} style={{marginRight: "1em"}}/>
         <button className="newGameButton" onClick={saveGifInput}>Save Win GIF</button>
         <button className='newGameButton' onClick={resetWinGif}>Reset Win GIF</button>
-      </div>
+      </div>*/}
     </div>
   )
 }
@@ -460,8 +460,8 @@ function Picross(props) {
     let ascii = gameSave ? atob(gameSave) : null
     let parsedWidth = ascii && ascii.charCodeAt(0)
     let parsedHeight = ascii && ascii.charCodeAt(1)
-    const newHeight = parsedWidth ?? parseInt(heightInput)
-    const newWidth = parsedHeight ?? parseInt(widthInput)
+    const newHeight = parsedHeight ?? parseInt(heightInput)
+    const newWidth = parsedWidth ?? parseInt(widthInput)
     newGame(newHeight, newWidth, gameSave)
     resetValues(newHeight, newWidth)
     setSettings(false)
@@ -617,14 +617,16 @@ function Picross(props) {
   
 
   const buttonBox = <div className={`boxButtons left ${props.isDesktop ? "flexRow" : "flexCol"}`}>
-    <ModeButton myMode="blue" backgroundColor="cyan"/>
-    <ModeButton myMode="gray" backgroundColor="#ccc"/>
-    {!props.isDesktop && <ModeButton myMode="browse" backgroundColor="#0f0"/>}
-    {<button 
+    {!props.isDesktop && <>
+      <ModeButton myMode="blue" backgroundColor="cyan"/>
+      <ModeButton myMode="gray" backgroundColor="#ccc"/>  
+      <ModeButton myMode="browse" backgroundColor="#0f0"/>
+    </>}
+    <button 
       style={{backgroundColor: "#09f"}} 
       onClick={toggleMarkerMode}
       className={markerMode ? "modeHighlighted" : ""}
-    />}
+    />
     {col >= 0 && row >= 0 && <button 
       style={{backgroundColor: "#faa"}} 
       className='flexCol centerCenter'
@@ -644,7 +646,7 @@ function Picross(props) {
   const rightButtonBox = <div className="boxButtons right flexCol">
     <button onClick={zoomIn}>+</button>
     <button onClick={zoomOut}>-</button>
-    <button onClick={zoomFitWidth}>W</button>
+    <button onClick={zoomFitWidth}>20</button>
   </div>
 
   const rowNumbers = <div id="rowNumbers" className="rowNumbers flexCol">

@@ -14,7 +14,6 @@ export default function Projects() {
   const [bladeOpen, setBladeOpen] = useState(false)
   const [consiliaOpen, setConsiliaOpen] = useState(false)
   const [volOpen, setVolOpen] = useState(false)
-  const [hackOpen, setHackOpen] = useState(false)
 
 
   return (
@@ -38,31 +37,18 @@ export default function Projects() {
         title="Merge (Freetail Hackers)"
         open={mergeOpen}
         setOpen={setMergeOpen}
-        lastUpdated={"December 2023"}
+        lastUpdated={"August 2024"}
       />
       {mergeOpen && <div className="aboutMeSection">
         <p><b><a href="https://gitlab.com/freetail-hackers/Merge">GitLab link</a></b></p>
         <p>
-          Merge is, as of December 2023, by far the largest project I have ever worked on. A
-          conservative estimate would put it at 6000 lines for the frontend and 2000 for the backend. 
-        </p>
-        <p>
-          I joined Freetail Hackers in June of 2022, and worked on the same project until leaving 
-          following HackTX 2023. 
-          I was quite clueless when first working on the project, but a virtuous cycle emerged; as I built Merge up, it built me up as a programmer, 
-          allowing me to build Merge up further. I improved a lot
-          as a web developer and programmer in my sophomore year of college, and working on Merge did at least as much for
-          me as any class did.
-          I wrote and rewrote much of the codebase, learning a ton about the particular
-          tech stack (React, WebSockets, and MongoDB) and how to really use Git to work with others. I was 
-          very well prepared for my internship in summer 2022 as a result.
-        </p>
-        <p>
-         I led development of the app in the run-up to its launch at HackTX 2023. 
-         It appears that Merge was ultimately unsuccessful, having 138 users but 135 teams in its database;
-         barely anyone formed teams in the app. Several things were missing, most prominently
-         e-mail notifications.
-
+          Merge was a Freetail Hackers web app with the goal of helping people find hackathon 
+          teammates. It was the largest single project I ever worked on in college,
+          and one which taught me an incredible amount as I rose from a clueless new developer in June 2022 to in 
+          charge of the entire thing by October 2023. As I wrote and rewrote so much of the codebase, 
+          I learned a ton about the particular tech stack (React, WebSockets, and MongoDB) and how to collaborate 
+          with fellow developers, designers, and stakeholders. While the app proved unsuccessful, the experience 
+          of working on it prepared me well for my first internship and the real world.
         </p>
       </div>}
 
@@ -154,22 +140,6 @@ export default function Projects() {
         </p>
       </div>}
 
-      <SectionHeader
-        title="Minor Hackathon Projects"
-        open={hackOpen}
-        setOpen={setHackOpen}
-      />
-      {hackOpen && <div className="aboutMeSection">
-        <p>
-          <b><a href="https://unihacks.ncssm.edu/unihacks">Unihacks</a> 2019:</b> Astrostacking Application<br/>
-          The first hackathon I ever participated in. I wrote a frontend in JavaFX for a project that was not ultimately finished. 
-        </p>
-        <p>
-          <b>HackMIT 2022:</b>Emissions Calendar<br/>
-          My team's goal was to make something that took in your Google calendar and offered suggestions to reduce 
-          carbon emissions in your transit between events with specified locations. We did not get very far.
-        </p>
-      </div>}
     </div>  
   )
 }

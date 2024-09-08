@@ -69,7 +69,6 @@ export default function AboutMe() {
         <ul>
           <li>Organic Chemistry I with Dr. Callman</li>
           <li>U.S. Constitutional History with Dr. Fourmy</li>
-          <li>Ideas of the 20th Century with Dr. Bonevac (my UGS, effectively chosen at random)</li>
         </ul>
       </p>
       
