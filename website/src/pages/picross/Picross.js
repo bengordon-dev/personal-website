@@ -1,77 +1,8 @@
 import './Picross.css';
 import {useState, useEffect, useCallback, useMemo} from "react";
-
-function SettingsBox(props) {
-  const [heightInput, setHeightInput] = useState(props.height ?? 15)
-  const [widthInput, setWidthInput] = useState(props.width ?? 15)
-  const [seedInput, setSeedInput] = useState("")
-  const [gifInput, setGifInput] = useState("")
-
-  useEffect(() => {
-    const savedGifURL = getComputedStyle(document.documentElement).getPropertyValue('--win-gif')
-      .split("url(")[1].split(")")[0]
-    setGifInput(savedGifURL)
-  }, [])
-
-  function saveGifInput() {
-    document.documentElement.style.setProperty('--win-gif', `url(${gifInput})`);
-    localStorage.setItem("picrossWinGif", gifInput)
-  }
-
-  function resetWinGif() {
-    document.documentElement.style.setProperty('--win-gif', `url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif)`);
-    localStorage.removeItem("picrossWinGif")
-  }
-
-  const {newGameButton, board, height, width} = props
-
-  const base64Board = useMemo(() => {
-    if (!board.length) {
-      return ""
-    }
-    let raw = String.fromCharCode(width, height)
-    for (let i = 0; i < board.length; i += 8) {
-      let bytearray = board.slice(i, Math.min(board.length, i + 8))
-      let sum = 0
-      for (let j = bytearray.length; j > 0; j--) {
-        sum += bytearray[j - 1] * (1 << (bytearray.length - j))
-      }
-      raw += String.fromCharCode(sum)
-    }
-    return btoa(raw)
-
-  }, [board, height, width])
-
-  const seedGameSave = seedInput.length > 0 ? seedInput : null
-
-  return (
-    <div className='settings flexCol'>
-      <div className='flexRow'>
-        <label>Height</label>
-        <input id="heightInput" type="text" placeholder='height' value={heightInput} onChange={(e) => setHeightInput(e.target.value)}/>
-      </div>
-      <div>
-      </div>
-      <div className='flexRow' style={{marginBottom: "1em"}}>
-        <label>Width</label>
-        <input id="widthInput" type="text" placeholder='width' value={widthInput} onChange={(e) => setWidthInput(e.target.value)}/>
-      </div>
-      <p id="boardSeed">{base64Board}</p>
-      <div className='flexRow centerCenter' style={{marginBottom: "1em"}}>
-        <label>Board seed input</label>
-        <input value={seedInput} onChange={(e) => setSeedInput(e.target.value)} style={{marginRight: "1em"}}/>
-        <button className="newGameButton" onClick={() => newGameButton(heightInput, widthInput, seedGameSave)}>New Game</button>
-      </div>
-
-      {/*<div className='flexRow centerCenter'>
-        <label>Win GIF url</label>
-        <input value={gifInput} onChange={(e) => setGifInput(e.target.value)} style={{marginRight: "1em"}}/>
-        <button className="newGameButton" onClick={saveGifInput}>Save Win GIF</button>
-        <button className='newGameButton' onClick={resetWinGif}>Reset Win GIF</button>
-      </div>*/}
-    </div>
-  )
-}
+import {NewGameWindow, HelpWindow} from './SettingsBox';
+import { initialColNums, initialRowNums, crossNumbers } from './utils';
+import CalcPopup from './CalcPopup';
 
 function Picross(props) {
   const [board, setBoard] = useState([])
@@ -86,7 +17,6 @@ function Picross(props) {
   const [rowNums, setRowNums] = useState([])
   const [colNums, setColNums] = useState([])
   const [mistakes, setMistakes] = useState(0)
-  const [help, setHelp] = useState(false)
   const [settings, setSettings] = useState(false)
   const [height, setHeight] = useState(15)
   const [width, setWidth] = useState(15)
@@ -98,11 +28,10 @@ function Picross(props) {
   const [zDown, setZDown] = useState(false)
   const [xDown, setXDown] = useState(false)
   const [marks, setMarks] = useState([])
+  const [markHistory, setMarkHistory] = useState([])
+  const hypotheticals = markHistory && markHistory.length > 0 && 
+    markHistory.map(e => e[0]).filter(e => e)
   const [markerMode, setMarkerMode] = useState(false)
-
-  const rowSum = row >= 0 && rowNums.length > 0 && rowNums[row].reduce((a, b) => a + b, 0) + rowNums[row].length
-  const colSum = col >= 0 && colNums.length > 0 && colNums[col].reduce((a, b) => a + b, 0) + colNums[col].length
-
 
   const updateCrossouts = useCallback((square, newClicks) => {
     const y = Math.floor(square / width)
@@ -280,10 +209,27 @@ function Picross(props) {
     setMarkerMode(prev => {
       if (prev) {
         setMarks([...Array(width * height).keys()].map(e => false))
+        setMarkHistory([])
+      } else {
+        setMarkHistory([[]])
       }
       return !prev
     })
   }, [width, height])
+
+  const pushScenario = useCallback(() => {
+    if (markerMode && markHistory.length > 0 && markHistory[markHistory.length - 1].length > 0) {
+      setMarkHistory(prev => [...prev, []])
+    }
+  }, [markerMode, markHistory])
+
+  const popScenario = useCallback(() => {
+    if (markerMode && markHistory.length > 0 && markHistory[markHistory.length - 1].length > 0) {
+      const last = markHistory[markHistory.length - 1]
+      setMarks(prev => prev.map((e, i) => last.includes(i) ? false : e))
+      setMarkHistory(prev => prev.length === 1 ? [[]] : prev.slice(0, -1))
+    }
+  }, [markerMode, markHistory])
 
   useEffect(() => {
     function handleKeyUp(event) {
@@ -294,18 +240,23 @@ function Picross(props) {
       } else if (event.key === 'u' || event.key === 'v') {
         undo()
       } else if (event.key === 'h')  {
-        setHelp(prev => !prev)
+        setSettings(prev => prev === "help" ? false : "help")
       } else if (event.key === 'm') {
         toggleMarkerMode()
+      } else if (event.key === 'p') {
+        pushScenario()
+      } else if (event.key === 'o') {
+        popScenario()
       } else if (event.key === 'Escape') {
         setSettings(false)
       } else if (event.key === 'n') {
         setSettings(prev => {
-          if (prev) {
+          if (prev === "new") {
             newGame(height, width)
             resetValues(height, width)
+            return false
           }
-          return !prev
+          return "new"
         })
       } else if (event.key === '=') {
         setSquareSize(prev => prev * 1.1)
@@ -321,7 +272,7 @@ function Picross(props) {
     return () => {
       document.onkeyup = null
     } 
-  }, [undo, newGame, height, width, toggleMarkerMode])
+  }, [undo, newGame, height, width, toggleMarkerMode, pushScenario, popScenario])
 
   useEffect(() => {
     localStorage.setItem("picrossGame", JSON.stringify({moveHistory, board, squareSize}))
@@ -331,9 +282,12 @@ function Picross(props) {
   const clickOnSquare = useCallback((square, right=false) => {
     if (!clicks[square] && !marks[square]) {
       let trueMode = right ? (mode === 'gray' ? 'blue' : 'gray') : mode
-      //setLastMove({square, trueMode})
       if (markerMode) {
         setMarks(prev => [...prev.slice(0, square), trueMode, ...prev.slice(square + 1)])
+        setMarkHistory(prev => {
+          return [...prev.slice(0, -1), [...prev[prev.length - 1], square]]
+        })
+         
       } else {
         setMoveHistory(prev => [...prev, {square, mode: trueMode}])
         setClicks(prev => {
@@ -398,50 +352,6 @@ function Picross(props) {
 
   }, [settings, props.isDesktop])
 
-  function initialRowNums(newHeight, newWidth, newBoard) {
-    let newRowNums = []
-    for (let i = 0; i < newHeight; i++) {
-      let row = []
-      let counter = 0
-      for (let j = 0; j < newWidth; j++) {
-        let num = newBoard.at((i * newWidth) + j)
-        if (num === 0  && counter > 0) {
-          row.push(counter)
-          counter = 0
-        } else if (num === 1) {
-          counter += 1
-        }
-      }
-      if (counter > 0) {
-        row.push(counter)
-      }
-      newRowNums.push(row)
-    }
-    return newRowNums
-  }
-
-  function initialColNums(newHeight, newWidth, newBoard) {
-    let newColNums = []
-    for (let j = 0; j < newWidth; j++) {
-      let col = []
-      let counter = 0;
-      for (let i = 0; i < newHeight; i++) {
-        let num = newBoard.at((i * newWidth) + j)
-        if (num === 0 && counter > 0) {
-          col.push(counter)
-          counter = 0
-        } else if (num === 1) {
-          counter += 1
-        }
-      }
-      if (counter > 0) {
-        col.push(counter)
-      }
-      newColNums.push(col)
-    }
-    return newColNums
-  }
-
   function resetValues(newHeight, newWidth) {
     setBluesClicked(0)
     setMistakes(0)
@@ -450,6 +360,7 @@ function Picross(props) {
     setStartSquare(-1)
     setMode("blue")
     setMoveHistory([])
+    setMarkHistory([])
     setRow(-1)
     setCol(-1)
     setMarkerMode(false)
@@ -514,33 +425,6 @@ function Picross(props) {
     }
   }
 
-  function crossNumbers(arr, groupCount) {
-    let out = [-1, groupCount];
-    let groupLength = 0;
-    for (let i = 0; arr[i] > 0 && i < arr.length; i++) {
-      if (arr[i] === 2) { // blue square
-        groupLength++;
-      } else { // gray square
-        if (groupLength > 0) {
-          out[0]++;
-          groupLength = 0;
-        }
-      }
-    }
-    groupLength = 0;
-    for (let i = arr.length - 1; arr[i] > 0 && i >= 0; i--) {
-      if (arr[i] === 2) { // blue square
-        groupLength++;
-      } else { // gray square
-        if (groupLength > 0) {
-          out[1]--;
-          groupLength = 0;
-        }
-      }
-    }
-    return out
-  }
-
   function clickColumn(index) {
     setCol(index)
     document.getElementById('mainBox').scrollLeft = document.getElementById('colNumbers').scrollLeft
@@ -570,10 +454,16 @@ function Picross(props) {
   }
 
   function squareText(square) {
-    if (!clicks[square]) return ""
-    if (clicks[square] === "blue" && board[square] === 1) return ""
-    if (clicks[square] === "gray" && board[square] === 0) return ""
-    return "x"
+    if ((clicks[square] === "blue" && board[square] === 0) || 
+        (clicks[square] === "gray" && board[square] === 1)) {
+      return "x"
+    }
+    
+    if (markerMode && hypotheticals?.length > 0 && hypotheticals.includes(square)) {
+      return String(hypotheticals.indexOf(square) + 1)
+    }
+
+    return ""
   }
 
   function zoomIn() {
@@ -595,25 +485,6 @@ function Picross(props) {
     onClick={() => setMode(myMode)}
     className={mode === myMode ? "modeHighlighted" : ""}
   />
-
-  const CalcPopup = () => <div className='flexCol centerCenter calcPopup'>
-    <h5>Column sum: {colSum}</h5>
-    <p>Groups of {height - colSum + 2}+ have guaranteed squares</p>
-    <div className='flexRow'>{colNums[col].map(e => <div className='flexCol centerCenter' style={{marginRight: "0.75em"}}>
-        <p style={e >= height - colSum + 2 ? {color: "green", fontWeight: "bold"} : {}}>{e}</p>
-        <p>{Math.max(0, e - (height - colSum + 1))}</p>
-      </div>
-    )}</div>
-    <br/>
-    <h5>Row sum: {rowSum}</h5>
-    <p>Groups of {width - rowSum + 2}+ have guaranteed squares</p>
-    <div className='flexRow'>{rowNums[row].map(e => <div className='flexCol centerCenter' style={{marginRight: "0.75em"}}>
-        <p style={e >= width - rowSum + 2 ? {color: "green", fontWeight: "bold"} : {}}>{e}</p>
-        <p>{Math.max(0, e - (width - rowSum + 1)) }</p>
-      </div>
-    )}</div>
-    <button onClick={() => setCalcPopup(false)}>Close Popup</button>
-  </div>
   
 
   const buttonBox = <div className={`boxButtons left ${props.isDesktop ? "flexRow" : "flexCol"}`}>
@@ -663,7 +534,7 @@ function Picross(props) {
 
   return (
     <div className="Picross">
-      {!settings && !help ?
+      {!settings ?
       <>
       <div className="topBar flexRow">
         <div className="flexCol">
@@ -674,8 +545,8 @@ function Picross(props) {
           <h5>Mistakes</h5>
           <p>{mistakes}</p>
         </div> 
-        <button className="newGameButton" onClick={() => setHelp(true)}>Help</button>
-        <button className="newGameButton" onClick={() => setSettings(true)}>Settings</button>
+        <button className="newGameButton" onClick={() => setSettings("help")}>Help</button>
+        <button className="newGameButton" onClick={() => setSettings("new")}>Settings</button>
       </div>
       <div id="gameControls">
         <div id="colNumbers">
@@ -710,7 +581,11 @@ function Picross(props) {
         {rightButtonBox}
         {rowNumbers}
       </div>
-      {calcPopup && row !== -1 && col !== -1 && <CalcPopup/>}
+      {calcPopup && row !== -1 && col !== -1 && <CalcPopup 
+        height={height} width={width} close={() => setCalcPopup(false)}
+        rowData={rowNums[row]}
+        columnData={colNums[col]}
+      />}
       <div className='acknowledgement'>
         <p>Heavily inspired by <a href="http://liouh.com/picross/">Henry Liou.</a></p>
         <p><a href="https://github.com/bengordon-dev/personal-website/blob/master/website/src/pages/Picross.js">Source Code</a></p>
@@ -718,40 +593,8 @@ function Picross(props) {
 
       
       </>
-      : !settings ? <div className='settings flexCol'
-      >
-        <p>
-          <b>Mobile instructions</b><br/>
-          To start the game, click the green box to enter browsing mode, then tap any square on the board.<br/>
-          After tapping on a square, the row numbers will snap into place. Browsing mode is thus essential 
-          to normal gameplay, though one can also tap on the row and column numbers to move the selected square.<br/>
-          Click the blue box to mark blue squares, i.e. those denoted by the row and column numbers.
-          Click the gray box to mark gray squares, which are simply the absence of blue squares.
-        </p>
-
-        <p>
-          <b>Special features</b><br/>
-          The red "calculator" button opens a popup which does some math about the row and column 
-          of the selected square. It does not reveal any new information; rather, it automates 
-          certain thinking which can be tedious and time-consuming on a phone.<br/>
-          The yellow undo button can to be used to reverse all moves made, but the honest player will  
-          find it most fun to only use it when absolutely necesssary (upon genuine misclicks.)
-        </p>
-
-        <p>
-          <b>Desktop instructions</b><br/>
-          One can mark squares with their mouse or with their keyboard.<br/>
-          Left-clicking marks a blue square, right-clicking marks a gray square.<br/>
-          Keybinds: Z: left-click (blue square), X: right-click (gray square), WASD/arrow keys: move 
-          around, C: calculator, U/V: undo, -: zoom out, =: zoom in, H: help<br/>
-          I find fastest to use a mix of the mouse and the keyboard. The calculator, undo, and zooming 
-          shortcuts allow one to never have to leave the grid. Moving around with the keyboard is 
-          more mentally taxing than moving around with the mouse, albeit very satisfying. 
-        </p>
-
-        <button onClick={() => setHelp(false)} className='closeWindow'>Close window</button>
-      </div>
-      : <SettingsBox height={height} width={width} newGameButton={newGameButton} board={board}/>
+      : settings === "help" ? <HelpWindow close={() => setSettings(false)}/>
+      : <NewGameWindow height={height} width={width} newGameButton={newGameButton} board={board} close={() => setSettings(false)}/>
       }
     </div>
   );

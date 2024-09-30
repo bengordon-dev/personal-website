@@ -7,7 +7,7 @@ import Elections from './pages/Elections'
 import AboutMe from './pages/AboutMe';
 import Treemaps from './pages/Treemaps';
 import EVPerVote from './pages/EVPerVote';
-import Picross from './pages/Picross';
+import Picross from './pages/picross/Picross';
 import { useMediaQuery } from '@mantine/hooks';
 
 
